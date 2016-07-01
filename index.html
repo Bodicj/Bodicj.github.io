@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>EXIF FR</title>
+<script type="text/javascript" src="EXIF.js">
+</script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        EXIF File Reader
+    </header>
+	<div id="page-wrapper">
+		<div>
+            <br>
+            <h2>Select an image file: </h2>
+             <input type="file" size="25" name="uploaded_file" id="uploaded_file" onchange="file_selected();" accept="image/*,image/jpeg" />
+		</div>
+		<div id="fileDisplayArea"></div>
+
+	</div>
+<pre id="log"></pre>
+	<script src="images.js"></script>
+</body>
+</html>
