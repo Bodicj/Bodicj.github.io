@@ -1,50 +1,576 @@
-html {
-  font-family:  Arial, sans-serif;
-}
-
-#page-wrapper {
-    position: absolute;
-  width: 40%;
-  padding: 1em;
-  margin: left;
-  min-height: 300px;
-}
-
-
-img {
-    max-height: 100%;
-  max-width: 100%;
+title{
+    font-family: PompadurBook;
 }
 header{
+    height: 745px;
+    width: 1280px;
+    margin-left: -8px;
+    margin-top: -9px;
+    background-image: url(images/Header/background.jpg);
+}
+#nav{
+    display: block;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    top: 40px;
+    left: 225px;
+}
+.navlist{
+    display: inline-block;
+    float: left;
+    width: 153.6px;
+    height: 50px;
+    font-family: PompadurMed;
+    font-size: 11pt;
+    font-stretch: ultra-condensed;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
     color: white;
-  background-color: black;
-   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7%;
-  font-size: 22pt;
+    position: relative;
 }
-#fileDisplayArea {
-  position: absolute;
-  width: auto;
-  overflow-x: auto;
-    margin-top: 10px;
-  border: 5px solid black;
+#home{
+    margin-top: 15px;    
 }
-#log{
-    margin-top: 14%;
-    position: absolute;
-    margin-right: 0px;
-    margin-left: 60%;
-    width: 50%;
-    font-family: Arial, sans-serif, solid;
-    border-left: 1px solid black;
-    padding: 30px;
-    font-size: 12pt;
+#photoapp{
+    margin-top: 15px;
+    margin-left: -5px;
+    letter-spacing: 3.4px;
+}
+#download{
+    margin-top: 15px;
+    margin-left: 31px;
+    letter-spacing: 3.4px;
+}
+#logo{
+    background-image: url(images/Header/Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 35px;
+    margin-left: 30px;
+    width 170px;
+    height: 100px;
+    color: white;    
+    top:-40px;
+    vertical-align: top;
+    text-align: center;
+}
+#design{
+    left: 9px;
+    margin-top: 15px;
+}
+h1{
+    letter-spacing: 4.1px;
+    font-size: 2.4em;
     font-weight: bold;
+    margin-top: 198px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    font-family: Pompadur;
+    color: white;
+    text-align: center;
 }
-body{
+#p1{
+    letter-spacing: 3px;
+    margin-top: 7px;
+    font-family: PompadurMed;
+    font-size: 11pt;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+.GetStarted{
+    letter-spacing: 2px;
+    margin-left: 558px;
+    margin-top: 25px;
+    background-color: #16a085;
+    border: 0px;
+    width: 164px;
+    height: 50px;
+    border-radius: 4px;
+}
+#firstp{
+    font-family: PompadurMed;
+    font-size: 9pt;
+    color: white;
+    position: relative;
+    top: 18px;
+    left: 1px;
+    text-align: center;
+}
+#Socials{
+    width: 98px;
+    height: 21px;
+    position: relative;
+    top: 220px;
+    left: 590px;
+    background-image: url(images/Header/SocialIcons.png);
+}
+#Second{
+    width: 1280px;
+    height: 494px;
+    margin-left: -8px;
+    margin-top: -12px;
+    position: relative;
+    background-color: #f5f6f7;
+}
+h2{
+    top: 109px;
+    color: #16a085;
+    font-family: PompadurBook;
+    font-size: 12pt;
+    margin-left: 129px;
+    letter-spacing: 4px;
+    position: relative;
+    line-height: 22.9px;
+}
+#secondp{
+    font-family: PompadurBook;
+    font-size: 9pt;
+    margin-left: 128px;
+    letter-spacing: 1.8px;
+    line-height: 24.8px;
+    margin-top: 147px;
+    color: #373737;
+}
+#SecondStarted{
+    margin-left: 128px;
+    margin-top: 29px;
+    width: 194px;
+}
+#SecondStartedp{
+    font-family: PompadurMed;
+    font-size: 9pt;
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+#HandPhone{
+    width: 1280px;
+    height: 494px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: -130px;
+    margin-top: -359px;
+    background-image: url(images/Second/HandPhone.png);
+}
+#Third{
+    width: 1280px;
+    height: 559px;
+    margin-left: -8px;
+    margin-top: -1px;
+    position: relative;
     background-color: white;
-    background-size: cover;
 }
+#iPhone5c{
+    display: inline-block;
+    height: 412px;
+    width: 314px;
+    position: relative;
+    top: 145px;
+    left: 124px;
+    background-image: url(images/Third/iPhone.png);
+}
+#textThird{
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-right: 82px;
+    top: 150px;
+}
+h3{
+    top: -29px;
+    margin-left: -2px;
+    position: relative;
+    color: #16a085;
+    font-family: Pompadur;
+    font-size: 14pt;
+    letter-spacing: 2.1px;
+}
+strong{
+    font-weight: bold;
+    color: black;
+    font-family: Pompadur;
+}
+#thirdp{
+    position: relative;
+    font-family: PompadurBook;
+    font-size: 9pt;
+    letter-spacing: 1.8px;
+    line-height: 22.9px;
+    top: -13px;
+    left: 1px;
+    color: #373737;
+}
+#ThirdStarted{
+    margin-left: 0px;
+    border-radius: 0px;
+    font-family: PompadurBook;
+    margin-top: 13px;
+    width: 193px;
+}
+#ThirdStartedp{
+    font-family: PompadurMed;
+    font-size: 9pt;
+    color: white;
+    position: relative;
+    left: -2px;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+#numThird{
+    font-family: Pompadur;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    margin-top: 44px;
+}
+#anglesThird{
+    width: 43px;
+    height: 16px;
+    margin-top: -7px;
+    background-image: url(images/Third/angles.png);
+}
+#Fourth{
+    left: -8px;
+    height: 485px;
+    width: 1280px;
+    position: relative;
+    background-color: #f5f6f7;
+}
+#AnglesFourth{
+    height: 16px;
+    width: 38px;
+    top: 93px;
+    position: relative;
+    background-image: url(images/Fourth/angles.png);
+    float: right;
+    right: 130px;
+}
+#Logo{
+    width: 371px;
+    height: 244px;
+    top: 19px;
+    left: 8px;
+    position: relative;
+    display: inline-block;
+    align-content: center
+}
+#image{
+    top: 45px;
+    left: 179px;
+    width: 59px;
+    height: 55px;
+    position: relative;
+    background-image: url(images/Fourth/Logo.png);
+    background-repeat: no-repeat;
+}
+h4{
+    top: 54.5px;
+    left: 24px;
+    text-align: center;
+    font-family: Pompadur;
+    font-size: 11pt;
+    letter-spacing: 3.5px;
+    position: relative;
+    color: #373737;
+}
+#fourthp{
+    top: 54px;
+    font-family: PompadurMed;
+    font-size: 6pt;
+    left: 25px;
+    letter-spacing: 2.6px;
+    color: #373737;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12px;
+}
+#Car{
+    width: 370px;
+    height: 244px;
+    top: 120px;
+    position: relative;
+    right: -3px;
+    left: 10px;
+    display: inline-block;
+    background-image: url(images/Fourth/Car.png);
+}
+#Leaves{
+    width: 371px;
+    height: 244px;
+    top: 120px;
+    right: 90px;
+    position: relative;
+    display: inline-block;
+    float: right;
+    background-image: url(images/Fourth/Leaves.png);
+}
+#fifth{
+    height: 790px;
+    width: 1280px;
+    position: relative;
+    margin-left: -8px;
+    top: -3px;
+    background-image: url(images/Fifth/Background.png);
+}
+h5{
+    position: relative;
+    top: 346px;
+    left: 403px;
+    margin: 0px;
+    font-family: Pompadur;
+    font-size: 17pt;
+    letter-spacing: 4.4px;
+    color: white;
+}
+#Email{
+    height: 60px;
+    position: relative;
+    top: 377px;
+    left: 467px;
+}
+#MailInput{
+    display: inline-block;
+    width: 258px;
+    height: 60px;
+    position: relative;
+    top: -26px;
+    border: 0px;
+    padding: 0px;
+    padding-left: 22px;
+    vertical-align: middle;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-family: PompadurMed;
+    font-size: 11pt;
+    letter-spacing: 3.2px;
+}
+#MailButton{
+    display: inline-block;
+    width: 63px;
+    height: 60px;
+    left: -4px;
+    background-color: #16a085;
+    position: relative;
+    border: 0px;
+    padding: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;    
+}
+#checked{
+    position: relative;
+    top: 25px;
+    left: 24px;
+    width: 20px;
+    height: 15px;
+    background-image: url(images/Fifth/CheckMail.png);
+}
+#Sixth{
+    width: 1280px;
+    height: 395px;
+    margin-left: -8px;
+    top: -4px;
+    position: relative;
+    background-color: #f5f6f7;
+}
+h6{
+    position: relative;
+    margin: 0px;
+    font-size: 16pt;
+    font-family: Pompadur;
+    top: 86px;
+    color: #373737;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#sixthp{
+    position: relative;
+    margin: 0px;
+    top: 92px;
+    letter-spacing: 1.8px;
+    line-height: 22px;
+    font-size: 9pt;
+    font-family: PompadurBook;
+    text-align: center;
+    color: #373737;
+    text-transform: uppercase;
+}
+.StoreBtn{
+    display: inline-block;
+    height: 56px;
+    position: relative;
+    top: 109px;
+    left: 330px;
+}
+#Applebtn{
+    width: 240px;
+    height: 56px;
+    position: relative;
+    background-color: #1abc9c;
+    display: inline-block;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    vertical-align: middle;
+}
+#AppleP{
+    font-family: Pompadur;
+    position: relative;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 11pt;
+    top: 6px;
+    left: -26px;
+}
+#AppleIco{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border: 0px;
+    background-color: #16a085;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: -4px;
+    position: relative;
+    top: 24px;
+}
+#apIco{
+    width: 21px;
+    height: 24px;
+    position: relative;
+    background-image: url(images/Sixth/Apple.png);
+    top: 16px;
+    left: 17.5px;
+}
+#Android{
+    margin-left: 19px;
+}
+#Androidbtn{
+    width: 240px;
+    height: 56px;
+    position: relative;
+    background-color: #1abc9c;
+    display: inline-block;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-family: Pompadur;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#AndroP{  
+    font-family: Pompadur;
+    position: relative;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 12pt;
+    top: 4px;
+    left: -20px;
+}
+#AndroidIco{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border: 0px;
+    background-color: #16a085;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: -4px;
+    position: relative;
+    top: 24px;
+}
+#anIco{
+    width: 25px;
+    height: 29px;
+    position: relative;
+    background-image: url(images/Sixth/Android.png);
+    top: 13.5px;
+    left: 15.5px;
+}
+#Footer{
+    width: 1280px;
+    height: 130px;
+    left: -8px;
+    top: -6px;
+    position: relative;
+}
+.FooterNav{
+    display: inline-block;
+    top: 47px;
+    left: 125px;
+    font-family: Pompadur;
+    letter-spacing: 2.579px;
+    font-size: 10pt;
+    color: #373737;
+}
+#Credits{
+    position: relative;
+    margin-right: 5px;
+    border-left: 2px;
+    border-color: #16a085;
+}
+#Privacy{ 
+    position: relative;
+    margin-right: 2px;
+    padding-left: 5px;
+}
+#Teams{   
+    position: relative;
+    margin-right: 5px;
+    padding-left: 7px;
+}
+.Divider{
+ display: inline-block;
+ width: 0;
+ height: 14px;
+ border-left: 1px solid #16a085;
+ border-right: 1px solid #16a085;
+}
+#Divider1{
+    top: 49px;
+    position: relative;
+    left: 125px;
+}
+#Divider2{
+    top: 49px;
+    position: relative;
+    left: 127px;
+}
+#Copyright{
+    position: relative;
+    top: 52px;
+    left: 126px;
+    font-family: Pompadur;
+    letter-spacing: 2.45px;
+    font-size: 10pt;
+    color: #373737;
+}
+#Footerlogo{
+    width: 53px;
+    height: 55px;
+    position: relative;
+    display: inline-block;
+    background-image: url(images/Footer/Logo.png);
+    float: right;
+    right: 128px;
+    top: -20px;
+}
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(fonts/GothamRounded/GothamRoundedBold_21016.ttf)
+   }
+@font-face {
+    font-family: PompadurMed; /* Гарнитура шрифта */
+    src: url(fonts/GothamRounded/GothamRoundedMedium_21022.ttf)
+   }
+@font-face {
+    font-family: PompadurBook; /* Гарнитура шрифта */
+    src: url(fonts/GothamRounded/GothamRoundedBook_21018.ttf)
+   }
