@@ -6,8 +6,6 @@ $green: #30AE63;
     margin-left: (120/1129)*1280px;
     margin-right: (120/1129)*1280px;
 }
-
-
 body{
     width: $doc-width;
     height: 3383px;
@@ -24,6 +22,7 @@ header{
     margin-left: -8px;
     background-color: #30AE63;
     margin-top: -8px;
+    background-image: url(Images/bg/homepage.png);
     .header_content{
         width: $content_width;
         height: 245px;
@@ -338,8 +337,7 @@ header{
                 
             }
             .place_best{
-                width: 50px;
-                max-width: 174px;
+                width: 174px;
                 height: 17px;
                 display: inline-flex;
                 justify-content: space-between;
@@ -461,9 +459,10 @@ header{
                 width: 174px;
                 height: 17px;
                 display: inline-flex;
-                justify-content: space-between;
+                
                 align-items: center;
                 p{
+                    padding-left: 12.81px;
                     font-size: 12px;
                     line-height: 16px;
                     display: inline-flex;
@@ -506,4 +505,7 @@ header{
 }
 #fourth_flat{
     background-image: url(Images/Rectangle%2014.png);
+}
+#street{
+    padding: 0px;
 }

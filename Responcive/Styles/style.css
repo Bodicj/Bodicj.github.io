@@ -14,7 +14,8 @@ header {
   height: 301px;
   margin-left: -8px;
   background-color: #30AE63;
-  margin-top: -8px; }
+  margin-top: -8px;
+  background-image: url(Images/bg/homepage.png); }
   header .header_content {
     width: 890px;
     height: 245px;
@@ -283,8 +284,7 @@ header {
         display: inline-flex;
         float: left; }
       .Best_Kiev .flats .flat .place_best {
-        width: 50px;
-        max-width: 174px;
+        width: 174px;
         height: 17px;
         display: inline-flex;
         justify-content: space-between;
@@ -390,9 +390,9 @@ header {
         width: 174px;
         height: 17px;
         display: inline-flex;
-        justify-content: space-between;
         align-items: center; }
         .Last_ad .flats .flat .place_best p {
+          padding-left: 12.81px;
           font-size: 12px;
           line-height: 16px;
           display: inline-flex;
@@ -429,5 +429,8 @@ header {
 
 #fourth_flat {
   background-image: url(Images/Rectangle%2014.png); }
+
+#street {
+  padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */
