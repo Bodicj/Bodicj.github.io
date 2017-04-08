@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$doc-width: 1280px;
+$content_width: 890px;
+$green: #30AE63;
+@mixin align(){
+    margin-left: (120/1129)*1280px;
+    margin-right: (120/1129)*1280px;
+}
+
+
+body{
+    width: $doc-width;
+    height: 3383px;
+    background-color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+}
+h{
+    margin: 0px;
+    font-weight: normal;
+}
+header{
+    width: 1280px;
+    height: 301px;
+    margin-left: -8px;
+    background-color: #30AE63;
+    margin-top: -8px;
+    .header_content{
+        width: $content_width;
+        height: 245px;
+        @include align();
+        .Navbar{
+            height: 40px;
+            width: 1280px;
+            max-width: 1280px;
+            display: inline-flex;
+            position: fixed;
+            background-color: $green;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: -136px; 
+            padding: 9px 0px;
+            #Menu{
+                width: 454px;
+                height: 35px;
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                color: white;
+                #Headerlogo{
+                width: 36px;
+                height: 36px;
+                display: inline-flex;
+                background-image: url(Images/Combined%20Shape.png);
+                background-repeat: no-repeat;
+                }
+                a{
+                    height: 20px;
+                    vertical-align: middle;
+                    display: inline-flex;
+                }
+                #Other{
+                    align-items: center;
+                    display: inline-flex;
+                    width: 60px;
+                    height: 20px;
+                    justify-content: space-between;
+                    #MenuPopup{
+                    width: 20px;
+                    display: inline-flex;
+                    height: 4px;
+                    background-image: url(Images/Settings.png);
+                    };
+                }                
+            }
+            #LogIn{
+                height: 40px;
+                width: 298px;
+                display: inline-flex;
+                justify-content:space-between;
+                align-items: center;
+                .Create_ad{
+                    width: 236px;
+                    height: 40px;
+                    font-size: 14px;
+                    background-color: rgba(255, 255, 255, 0.3);
+                    color: white;
+                    display: inline-flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    img{
+                        display: inline-flex;
+                    }
+                    p{
+                        display: inline-flex;
+                    }
+                }
+                .LogIn{
+                    font-size: 14px;
+                    display: inline-flex;
+                    color: white;
+                }
+            }
+        }
+        .Search{
+            width: $content-width;
+            height: 145px;
+            padding-top: 88px;
+            h1{
+                color: white;
+                font-size: 38px;
+                font-weight: normal;
+            }
+            .Components_hdr{
+                display: flex;
+                justify-content: space-between;
+                align-items:flex-end; 
+                width: 1007.9px;
+                height: 66px;
+                .Search_component{
+                    display: inline-flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    p{
+                        color: white;
+                    }
+                    .Rooms{
+                        display: inline-flex;
+                        justify-content: space-between;
+                        width: 248px;
+                        a{
+                            display: inline-flex;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100px;
+                            border: 2px solid white;
+                            line-height: 40px;
+                            justify-content: space-around;
+                            color: white;
+                        }
+                        a:hover{
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                    .Popup_list{
+                        display: inline-flex;
+                        width: 340px;
+                        height: 38px;
+                        padding: 0px 10px;
+                        background-color: white;
+                        border: 2px solid #DFE3E6;
+                        border-radius: 2px;
+                        justify-content: space-between;
+                        align-items: center;
+                        p{
+                            color: black;
+                        }
+                        img{
+                            width: 10px;
+                            height: 5px;
+                            display: inline-flex;
+                        }
+                    }
+                }
+                #Search_btn{
+                    display: inline-flex;
+                    background-color: white;
+                    width: 201px;
+                    height: 40px;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        display: inline-flex;
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+}
+.metropoliten{
+    width: 1009.03454px;
+    height: 295px;  
+    background-color: white;
+    margin-left: (92/1129)*1280px;
+    margin-top: (23/1129)*1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .metro_content{
+        width: (320/1129)*1280px;
+        height: 212px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        .search_content{
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            width: (320/1129)*1280px;
+            height: 140px;
+            
+            h2{
+                font-size: 24px;
+                line-height: 32px;
+                display: inline-flex;
+                margin: 0px;
+                font-weight: normal;
+            }
+            .place_variation{
+                width: (236/1129)*1280px;
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                .variation{
+                    height: 20px;
+                    vertical-align: middle;
+                    display: inline-flex;
+                }
+            }
+            .metroStation{
+                display: inline-flex;
+                width: (313/1129)*1280px;
+                height: 38px;
+                background-color: white;
+                border: 2px solid #DFE3E6;
+                border-radius: 2px;
+                justify-content: space-around;
+                align-items: center;
+                .rectangle{
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 13px;
+                }
+                p{
+                    color: black;
+                }
+                img{
+                    width: 10px;
+                    height: 5px;
+                    display: inline-flex;
+                }
+            }
+        }
+    }
+    .btn_2{
+        width: (320/1129)*1280px;
+        height: 40px;
+        background-color: $green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn_2_p{
+            display: inline-flex;
+            color: white;
+        }
+        
+    }
+    .metro_map{
+         display: inline-flex;
+    }
+    }
+.Best_Kiev{
+    width: 1009.03454px;
+    height: 384px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: (92/1129)*1280px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    h3{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        max-width: 1009.03454px;
+        font-weight: normal;
+        padding-top: 20px;
+    }
+    .flats{
+        display: flex;
+        justify-content: space-around;
+        .flat{
+            width: 202px;
+            height: 228px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: space-between;
+            .photo_flat{
+                width: 202px;
+                height: 135px;
+                display: inline-flex;
+                background-image: url(Images/card/images/Rectangle%2011.png);
+                background-repeat: no-repeat;
+                .flat_more{
+                    display: flex;
+                    width: 20px;
+                    height: 36px;
+                    float: right;
+                    background-image: url(Images/card/Group%208.png);           margin-top: 11px;
+                    margin-right: 9px;
+                    margin-left: 174px;
+                }
+            }
+            .price_best{
+                width: 115px;
+                height: 24px;
+                display: inline-flex;
+                justify-content: space-between;
+                
+                align-items: center;
+                .best_price{
+                    margin: 0px;
+                    display: inline-flex;
+                }
+                .checked_price{
+                    float: right;
+                    width: 16px;
+                    height: 16px;
+                    display: inline-flex;
+                }
+            }
+            .rooms_p_best{
+                font-size: 12px;
+                line-height: 16px;
+                margin: 0px;
+                color: #8C9BA5;
+                display: inline-flex;
+                float: left;
+                
+            }
+            .place_best{
+                width: 50px;
+                max-width: 174px;
+                height: 17px;
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                    display: inline-flex;
+                    margin: 0px;
+                }
+                img{
+                    display: inline-flex;
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }  
+    }
+    .more_best{
+        display: inline-flex;
+        width: 1009.03454px;
+        height: 39px;
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #D8D8D8;
+        font-family: 'Roboto', sans-serif;        
+    }
+}
+.Last_ad{
+    width: 1009.03454px;
+    height: 384px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: (92/1129)*1280px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    h3{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        max-width: 1009.03454px;
+        font-weight: normal;
+        padding-top: 20px;
+    }
+    .place_variation{
+        width: (236/1129)*1280px;
+        margin-left:  370.73516px;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        .variation{
+            height: 20px;
+            vertical-align: middle;
+            display: inline-flex;
+        }
+    }
+    .flats{
+        display: flex;
+        justify-content: space-around;
+        .flat{
+            width: 202px;
+            height: 228px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: space-between;
+            .photo_flat{
+                width: 202px;
+                height: 135px;
+                background-image: url(Images/card/images/Rectangle%2011.png);
+                background-repeat: no-repeat;
+                display: inline-flex;
+                .flat_more{
+                    display: flex;
+                    width: 20px;
+                    height: 36px;
+                    float: right;
+                    background-image: url(Images/card/Group%208.png);           margin-top: 11px;
+                    margin-right: 9px;
+                    margin-left: 174px;
+                }
+            }
+            .price_best{
+                width: 115px;
+                height: 24px;
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                .best_price{
+                    margin: 0px;
+                    display: inline-flex;
+                    
+                }
+                .checked_price{
+                    float: right;
+                    width: 16px;
+                    height: 16px;
+                    display: inline-flex;
+                }
+            }
+            .rooms_p_best{
+                font-size: 12px;
+                line-height: 16px;
+                margin: 0px;
+                color: #8C9BA5;
+                display: inline-flex;
+                float: left;
+                
+            }
+            .place_best{
+                width: 174px;
+                height: 17px;
+                display: inline-flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    font-size: 12px;
+                    line-height: 16px;
+                    display: inline-flex;
+                    margin: 0px;
+                }
+                img{
+                    display: inline-flex;
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }  
+    }
+    .more_best{
+        display: inline-flex;
+        width: 1009.03454px;
+        height: 39px;
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #D8D8D8;
+        font-family: 'Roboto', sans-serif;        
+    }
+}
+#activeG{
+    border-bottom: 2px solid white;
+}
+#activeW{
+    border-bottom: 2px solid $green;
+}
+#first_flat{
+    background-image: url(Images/Rectangle%2011.png);
+}
+#second_flat{
+    background-image: url(Images/Rectangle%2012.png);
+}
+#third_flat{
+    background-image: url(Images/Rectangle%2013.png);
+}
+#fourth_flat{
+    background-image: url(Images/Rectangle%2014.png);
+}
