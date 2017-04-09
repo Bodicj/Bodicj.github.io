@@ -183,7 +183,7 @@ header{
     width: 1190px;
     height: 295px;  
     background-color: white;
-    margin-left: (92/1129)*1280px;
+    margin-left: 45px;
     margin-top: (23/1129)*1280px;
     display: flex;
     justify-content: space-around;
@@ -268,7 +268,7 @@ header{
     height: 384px;
     background-color: white;
     margin-top: 20px;
-    margin-left: (92/1129)*1280px;
+    margin-left: 45px;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -374,7 +374,7 @@ header{
     height: 384px;
     background-color: white;
     margin-top: 20px;
-    margin-left: (92/1129)*1280px;
+    margin-left: 45px;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -505,6 +505,7 @@ header{
 #nav1
 {
    margin-left: 400px;
+   border-bottom: 2px solid $green;
 }
 #nav2
 {
@@ -525,9 +526,22 @@ header{
 }
 #IconTele
 {  
-    background-image: url(Images/Telegram/Oval%203.png);
-    width: 62px;
+    display: inline-flex;
+    width: (312/890)*1190px;
     height: 62px;  
+    margin-top: 53px;
+    margin-left: 40px;
+    align-items: center;
+    #Telegram_ico{
+        display: inline-flex;
+    }
+    .Tele_cont{
+        display: inline-flex;
+        padding-left: 20px;
+        font-size: 24px;
+        font-family: $fontFamily;
+        line-height: 32px;
+    }
 }
 .TitleTelegram
 {
