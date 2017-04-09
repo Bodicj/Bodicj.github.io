@@ -148,7 +148,7 @@ header {
             color: #30AE63; }
 
 .metropoliten {
-  width: 1009.03454px;
+  width: 1190px;
   height: 295px;
   background-color: white;
   margin-left: 104.30469px;
@@ -218,7 +218,7 @@ header {
     display: inline-flex; }
 
 .Best_Kiev {
-  width: 1009.03454px;
+  width: 1190px;
   height: 384px;
   background-color: white;
   margin-top: 20px;
@@ -233,7 +233,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    max-width: 1009.03454px;
+    max-width: 1190px;
     font-weight: normal;
     padding-top: 20px; }
   .Best_Kiev .flats {
@@ -300,7 +300,7 @@ header {
           height: 8px; }
   .Best_Kiev .more_best {
     display: inline-flex;
-    width: 1009.03454px;
+    width: 1190px;
     height: 39px;
     font-size: 16px;
     line-height: 24px;
@@ -310,7 +310,7 @@ header {
     font-family: 'Roboto', sans-serif; }
 
 .Last_ad {
-  width: 1009.03454px;
+  width: 1190px;
   height: 384px;
   background-color: white;
   margin-top: 20px;
@@ -326,12 +326,12 @@ header {
     justify-content: center;
     align-items: center;
     margin: 0px;
-    max-width: 1009.03454px;
+    max-width: 1190px;
     font-weight: normal;
     padding-top: 20px; }
   .Last_ad .place_variation {
     width: 267.56422px;
-    margin-left: 370.73516px;
+    margin-left: 459.22471px;
     display: inline-flex;
     justify-content: space-between;
     align-items: center; }
@@ -403,7 +403,7 @@ header {
           height: 8px; }
   .Last_ad .more_best {
     display: inline-flex;
-    width: 1009.03454px;
+    width: 1190px;
     height: 39px;
     font-size: 16px;
     line-height: 24px;
