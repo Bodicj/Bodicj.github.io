@@ -2,6 +2,7 @@
 $doc-width: 1280px;
 $content_width: 890px;
 $green: #30AE63;
+$fontFamily: 'Roboto', sans-serif;
 @mixin align(){
     margin-left: (120/1129)*1280px;
     margin-right: (120/1129)*1280px;
@@ -488,6 +489,207 @@ header{
         font-family: 'Roboto', sans-serif;        
     }
 }
+.box4
+{
+  width: 1190px;
+  height: 806px;
+  margin: auto;  
+}
+.Telegram
+{
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+#Blog
+{
+    line-height: 32px;
+    text-align: center;
+    font-size: 34px;
+}
+#Blog2
+{
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.BlogImages
+{
+    margin-top: -50px;
+    width: 272px;
+    height: 182px;
+    display: inline-block;
+}
+#Im1
+{
+    background-image: url(Images/Blog/Group%2010.png);
+}
+#Im2
+{
+    background-image: url(Images/Blog/Group%209.png); 
+}
+#Im3
+{
+    background-image: url(Images/Blog/Group%2010.png);  
+}
+.BlogTitle
+{
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+#blogtitle1
+{
+    color: #BA8FF7;
+}
+#blogtitle2
+{
+    color: #30AE63;
+}
+#blogtitle3
+{
+    color: #2573D8;
+}
+.BlogContent
+{
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #152935;
+}
+.BlogAuthor
+{
+    color: #8C9BA5;
+    font-size: 12px;
+    line-height: 16px;
+}
+.BlgBtn
+{
+    width: 1190px;
+    height: 40px;
+    background-color:#FFFFFF;
+}
+#BlogButton
+{
+   border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -4px;
+    color: #152935;
+ 
+}
+
+.box2
+{
+  margin-left: 45px;
+  margin-top: 50px;
+  width: 1190px;
+  height: 578px;
+  background-color: white;
+}
+.box3
+{
+ 
+  width: 272px;
+  height: 266px;
+  margin: 60px; 
+  display: inline-block;
+}
+
+
+
+
+
+footer
+{
+    margin-top: 50px;
+    font-family: $fontFamily;
+}
+#FootText
+{    
+    font-size: 16px;
+    color: #152935;
+}
+#FootText2
+{
+    line-height: 30px;
+    font-size: 13px;
+    color: #152935;
+}
+#p1
+{
+    line-height:20px;
+}
+#ContactsFB
+{
+    background-image: url(Images/footer/facebook.png);
+    width: 17px;
+    height: 18px;
+}
+#ContactsVK
+{
+    background-image: url(Images/footer/vk.png);
+    width: 22px;
+    height: 11.43px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    
+}
+#ContactsInst
+{    
+    background-image: url(Images/footer/instagram.png);
+    width: 17px;
+    height: 18px;
+    margin-left: 15px;
+}
+.styleicon
+{
+    margin-top: 10px;
+    display: inline-block;
+}
+.Request
+{
+    color: white;
+    font-size: 14px;
+    width:162px;
+    height: 40px;
+    border: 0px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    background-color: #30AE63;
+}
+#Button1
+{
+    text-align: center;
+}
+.container    
+{
+    margin: 0;    
+    padding: 0;
+    display: flex;
+    
+}
+.box
+{
+  align-content: space-between, 20px;
+  width: 200px;
+  height: 230px;
+  margin: auto;
+}
+#logoM
+{
+    background-image: url(Images/footer/Combined%20Shape.png);
+    width:  51px;
+    height: 47px;
+    margin-left: 640px;
+}
+
 #activeG{
     border-bottom: 2px solid white;
 }
