@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продажа недвижимости</title>
+    <link rel="stylesheet" href="../build/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="nav_content">
+                <img class="logo" alt="logo" src="..\build\img\Logo.png">
+                <input type="radio" id="rentRB" class="RB_header" >
+                <label id="Rent"for="rentRB">Аренда</label>
+            </div>
+            <a class="menu_head_button" href="#"></a>
+        </nav>
+        <div class="Search">
+            <h1>Поиск недвижимости в Украине</h1>
+            <div class="Components_hdr">
+                <p id="City_p">Выберите город</p>
+                <div class="Popup_list">
+                    <p class="choose_city">Киев</p>
+                    <img src="..\build\img\ShapeForList.png">
+                </div>
+                <p id="Rooms_p">Кол-во комнат</p>
+                <div class="Rooms">
+                    <a class="Num_rooms">1</a>
+                    <a class="Num_rooms">2</a>
+                    <a class="Num_rooms">3</a>
+                    <a class="Num_rooms">4</a>
+                    <a class="Num_rooms">5+</a>
+                </div>
+                <div id="Search_btn"><a>Перейти к поиску</a></div>
+            </div>
+        </div>
+    </header>
+    <wrapper>
+        <div class="wrapper_container" id="wrapper_container_metro">
+            <img class="metro_logo" src="..\build\img\logo_metro.png">
+            <div class="wrapper_container_metro_content">
+                <h1>Недвижимость возле метро</h1>
+                <div class="place_variation">
+                    <input type="radio" id="radio_wrapper_flats" class="RB_variation" checked >
+                    <label id="flats"for="radio_wrapper_flats">Квартиры</label>
+                    <input type="radio" id="radio_wrapper_houses" class="RB_variation" >
+                    <label id="houses"for="radio_wrapper_houses">Дома</label>
+                    <input type="radio" id="radio_wrapper_offices" class="RB_variation" >
+                    <label id="offices"for="radio_wrapper_offices">Офисы</label>
+                </div>
+                <div class="metro_station_list">
+                    <div class="metro_station_list_branch">
+                        <img src="..\build\img\Rectangle430.png" class="rectangle">
+                        <p class="choose_place">Политехнический институт</p>
+                    </div>
+                    <img src="..\build\img\ShapeForList.png">
+                </div>
+                <div class="main_button" id="main_button_container_metro"><p class="btn_2_p">Показать результаты поиска</p></div>
+            </div>
+        </div>
+        <div class="wrapper_container" id="wrapper_container_bestOffers">
+            <h3>Лучшие предложения в Киеве</h3>
+            <div class="flats">
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">7 800 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">10 200 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">1 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">6 900 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">9 000 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+            </div>
+            <div class="watch_more_btn">
+                <a>Смотреть лучшие ценовые предложения</a>
+            </div>
+        </div>
+        <div class="wrapper_container" id="wrapper_container_lastOffers">
+            <h3>Последние обьявления в Киеве</h3>
+            <div class="place_variation">
+                <input type="radio" id="radio_wrapper_flats" class="RB_variation" checked >
+                <label id="flats"for="radio_wrapper_flats">Квартиры</label>
+                <input type="radio" id="radio_wrapper_houses" class="RB_variation" >
+                <label id="houses"for="radio_wrapper_houses">Дома</label>
+                <input type="radio" id="radio_wrapper_offices" class="RB_variation" >
+                <label id="offices"for="radio_wrapper_offices">Офисы</label>
+            </div>
+            <div class="flats">
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">7 800 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">10 200 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">1 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">6 900 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+                <div class="flat">
+                    <div class="photo_flat">
+                        <div class="flat_more"></div>
+                    </div>
+                    <div class="price_best">
+                        <p class="best_price">9 000 грн</p>
+                        <img class="checked_price" src="../build/img/Group3.png">
+                    </div>
+                    <p class="rooms_p_best">2 комн.  •  30 кв.м.</p>
+                    <div class="place_best">
+                        <img src="../build/img/Rectangle430.png" class="rectangle">
+                        <p>Политехнический институт</p>
+                    </div>
+                </div>
+            </div>
+            <div class="watch_more_btn">
+                <a>Смотреть самые свежие обьявления</a>
+            </div>
+        </div>
+    </wrapper>
+</body>
+</html>
