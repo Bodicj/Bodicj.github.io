@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Продажа недвижимости</title>
-    <link rel="stylesheet" href="../build/css/mobile.css">
+    <link rel="stylesheet" href="../build/css/mobile.css" media="screen and (min-width: 1280px)">
+    <link rel="stylesheet" href="../build/css/desktop.css" media="handheld and (min-width: 360px)">
 </head>
 <body>
     <header class="header">
@@ -12,25 +13,45 @@
             <div class="nav_content">
                 <img class="logo" alt="logo" src="..\build\img\Logo.png">
                 <input type="radio" id="rentRB" class="RB_header" >
-                <label id="Rent"for="rentRB">Аренда</label>
+                <label class="RB_label" id="Rent"for="rentRB">Аренда</label>
+                <input type="radio" id="sellRB" class="RB_header" >
+                <label class="RB_label" id="Sell"for="sellRB">Продажа</label>
+                <input type="radio" id="dailyRB" class="RB_header" >
+                <label class="RB_label" id="Daily"for="dailyRB">Посуточно</label>
+                <div id="Other">
+                    <div id="MenuPopup"></div>
+                    <a>Еще</a>
+                </div>
+    
+            </div>
+            <div id="LogIn">
+                <div class="Create_ad">
+                    <img src="../build/img/Shape.png">
+                    <p>Разместить обьявление</p>
+                </div>
+                <a class="LogIn">Войти</a>
             </div>
             <a class="menu_head_button" href="#"></a>
         </nav>
         <div class="Search">
             <h1>Поиск недвижимости в Украине</h1>
             <div class="Components_hdr">
-                <p id="City_p">Выберите город</p>
-                <div class="Popup_list">
-                    <p class="choose_city">Киев</p>
-                    <img src="..\build\img\ShapeForList.png">
+                <div class="Component_city">
+                    <p id="City_p">Выберите город</p>
+                    <div class="Popup_list">
+                        <p class="choose_city">Киев</p>
+                        <img src="..\build\img\ShapeForList.png">
+                    </div>
                 </div>
-                <p id="Rooms_p">Кол-во комнат</p>
-                <div class="Rooms">
-                    <a class="Num_rooms">1</a>
-                    <a class="Num_rooms">2</a>
-                    <a class="Num_rooms">3</a>
-                    <a class="Num_rooms">4</a>
-                    <a class="Num_rooms">5+</a>
+                <div class="Component_room">
+                    <p id="Rooms_p">Кол-во комнат</p>
+                    <div class="Rooms">
+                        <a class="Num_rooms">1</a>
+                        <a class="Num_rooms">2</a>
+                        <a class="Num_rooms">3</a>
+                        <a class="Num_rooms">4</a>
+                        <a class="Num_rooms">5+</a>
+                    </div>
                 </div>
                 <div id="Search_btn"><a>Перейти к поиску</a></div>
             </div>
@@ -206,21 +227,26 @@
                 <input type="radio" id="radio_wrapper_clients" class="RB_variation" >
                 <label id="clients"for="radio_wrapper_clients">Общение с клиентами</label>
             </div>
-            <div class="metrovka_bot">
-                <div class="metrovka_bot_content">
-                    <div class="telegram_logo">
-                        <img alt="Telegram logo" src="../build/img/Oval3.png">
-                        <h1>Telegram</h1>
-                    </div>
-                    <div class="telegram_text">
-                        <h1>Metrovka Bot</h1>
-                        <div class="telegram_paragraph">
-                            <p>1. Собирайте аналитику по объектам</p>
-                            <p>2. Получайте подсказки по эффективному продвижению объявлений</p>
-                            <p>3. Общайтесь с клиентами через специальный канал телекоммуникации</p>
+            <div class="Telega">
+                <div class="Phone">
+                    <div class="Iphone"></div>
+                </div>
+                <div class="metrovka_bot">
+                    <div class="metrovka_bot_content">
+                        <div class="telegram_logo">
+                            <img alt="Telegram logo" src="../build/img/Oval3.png">
+                            <h1>Telegram</h1>
                         </div>
+                        <div class="telegram_text">
+                            <h1>Metrovka Bot</h1>
+                            <div class="telegram_paragraph">
+                                <p>1. Собирайте аналитику по объектам</p>
+                                <p>2. Получайте подсказки по эффективному продвижению объявлений</p>
+                                <p>3. Общайтесь с клиентами через специальный канал телекоммуникации</p>
+                            </div>
+                        </div>
+                        <div class="main_button" id="main_button_container_telegram"><p class="btn_2_p">Присоединится к Telegram</p></div>
                     </div>
-                    <div class="main_button" id="main_button_container_telegram"><p class="btn_2_p">Присоединится к Telegram</p></div>
                 </div>
             </div>
             <div class="page_seletor">
@@ -320,8 +346,8 @@
                     <div class="main_button" id="main_button_footer"><p class="btn_2_p">Оставить заявку</p></div>
                 </div>
             </div>
-            <img class="big_logo" src="../build/img/BigLogo.png">
         </div>
+        <img class="big_logo" src="../build/img/BigLogo.png">
     </footer>
 </body>
 </html>
