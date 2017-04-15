@@ -23,3 +23,6 @@
 .place_variation label:hover{
     border-bottom: 2px solid #30AE63;
 }
+.Search .Components_hdr .Component_city .Popup_list {
+    flex-direction: row-reverse;
+}
