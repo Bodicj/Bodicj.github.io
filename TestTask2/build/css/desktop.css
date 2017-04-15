@@ -26,3 +26,6 @@
 .Search .Components_hdr .Component_city .Popup_list {
     flex-direction: row-reverse;
 }
+.Search .Components_hdr #Search_btn{
+    border: 1px solid #30ae63;
+}
