@@ -22,6 +22,7 @@
 }
 .place_variation label:hover{
     border-bottom: 2px solid #30AE63;
+    cursor: pointer;
 }
 .Search .Components_hdr .Component_city .Popup_list {
     flex-direction: row-reverse;
@@ -41,5 +42,6 @@
     -moz-appearance: none;
     -webkit-appearance: none;
     -ms-progress-appearance: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
