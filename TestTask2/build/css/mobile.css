@@ -26,3 +26,12 @@
 .Search .Components_hdr #Search_btn{
     border: 1px solid #30ae63;
 }
+.metro_station_list .metro_station_list_branch select {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+}
