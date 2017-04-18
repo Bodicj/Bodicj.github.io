@@ -49,4 +49,16 @@
     -ms-progress-appearance: none;
     font-family: 'Open Sans', sans-serif;
 }
-
+.nav_content label:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+#Other #menupopup:hover{
+    cursor: pointer;
+}
+.create_ad:hover{
+    cursor: pointer;
+}
+.Num_rooms:hover{
+    cursor: pointer;
+}
