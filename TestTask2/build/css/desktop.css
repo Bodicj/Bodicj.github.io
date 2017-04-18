@@ -12,6 +12,7 @@
 .main_button:hover{
     background-color: #50DB88;
     border-color: #50DB88;
+    cursor: pointer;
 }
 .Search .Components_hdr #Search_btn:hover{
     background-color: #30AE63;
@@ -26,6 +27,7 @@
 }
 .Search .Components_hdr .Component_city .Popup_list {
     flex-direction: row-reverse;
+    padding: 0px;
 }
 .Search .Components_hdr #Search_btn{
     border: 1px solid #30ae63;
