@@ -1,0 +1,11 @@
+@import "../utilites/utils";
+
+.watch_more_btn{
+  display: inline-flex;
+  @include size(360px, 40px);
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #D8D8D8;
+}

@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dce553d7-03e5-40d4-b701-171dba1bf534" name="Default" comment="Add a mobile version of responcive" />
-    <list id="9f671c86-d506-4137-a178-bf1d7cd2ab66" name="Add a mobile version of responcive" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/ShapeForList.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Group8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Group 8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Group 3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Rectangle430.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Rectangle 11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Rectangle11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Group3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/logo_metro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Rectangle 430.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/menu_icon.png" />
-    </list>
+    <list default="true" id="dce553d7-03e5-40d4-b701-171dba1bf534" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/build/index.html" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +18,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="202" column="14" lean-forward="true" selection-start-line="197" selection-start-column="8" selection-end-line="202" selection-end-column="14" />
+            <state relative-caret-position="28">
+              <caret line="75" column="48" lean-forward="false" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/mobile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1732">
+              <caret line="0" column="12866" lean-forward="false" selection-start-line="0" selection-start-column="12866" selection-end-line="0" selection-end-column="12866" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktop.css" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/desktop.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template/wrapper.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_watch_more_button.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/partials/module/_watch_more_button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header_modules.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/partials/module/_header_modules.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="129" column="2" lean-forward="false" selection-start-line="129" selection-start-column="2" selection-end-line="137" selection-end-column="3" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#903#1045#0" expanded="false" />
+                <element signature="e#1236#1347#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/bodcj/Bodicj.github.io/Responcive/Styles/style.scss">
+      <file leaf-file-name="_metro_station_list.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6256">
-              <caret line="368" column="47" lean-forward="false" selection-start-line="368" selection-start-column="47" selection-end-line="368" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -75,10 +135,16 @@
       <find>metro_</find>
       <find>metroS</find>
       <find>flats</find>
+      <find>hover</find>
+      <find>varia</find>
+      <find>btn</find>
+      <find>.Search .Components_hdr .Popup_list</find>
+      <find>.search .components_hdr .popup_list</find>
+      <find>popup</find>
+      <find>.Search .Components_hdr .Component_city .Popup_list</find>
+      <find>popu</find>
+      <find>.Popup_list img</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/template/header_content.html" />
         <option value="$PROJECT_DIR$/src/style/partials/utilites/utils.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/base/header.scss" />
-        <option value="$PROJECT_DIR$/src/template/header.html" />
         <option value="$PROJECT_DIR$/src/style/partials/module/header_modules.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/utilites/_utils.scss" />
         <option value="$PROJECT_DIR$/src/template/slider.html" />
@@ -95,24 +160,41 @@
         <option value="$PROJECT_DIR$/src/style/partials/module/variation.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/module/metro_station_list.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/module/wrapper__container.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/module/_header_modules.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/layout/_navbar.scss" />
         <option value="$PROJECT_DIR$/../Responcive design/index.html" />
         <option value="$PROJECT_DIR$/../Responcive design/Styles/style.css" />
-        <option value="$PROJECT_DIR$/src/style/partials/base/_header.scss" />
         <option value="$PROJECT_DIR$/build/css/main.css" />
-        <option value="$PROJECT_DIR$/src/style/partials/base/_body.scss" />
         <option value="$USER_HOME$/Downloads/Telegram Desktop/bodcj/Bodicj.github.io/Responcive/Styles/style.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/base/_wrapper.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/module/_main_button.scss" />
-        <option value="$PROJECT_DIR$/src/style/main.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_blog.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/module/_flats.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/module/_watch_more_button.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_metrovka.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_post.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_footer_block.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/module/_wrapper__container.scss" />
-        <option value="$PROJECT_DIR$/src/template/wrapper.html" />
+        <option value="$PROJECT_DIR$/src/template/footer.html" />
+        <option value="$PROJECT_DIR$/src/style/partials/base/_wrapper.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/base/_body.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_page_selector.scss" />
+        <option value="$PROJECT_DIR$/../Responcive design/Styles/style.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/base/_header.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/base/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_main_button.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_variation.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/state/_state.scss" />
         <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/build/css/mobile.css" />
+        <option value="$PROJECT_DIR$/src/style/partials/layout/_navbar.scss" />
+        <option value="$PROJECT_DIR$/src/template/_hamburger_menu.html" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_hamburger_menu.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/style/main.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_header_modules.scss" />
+        <option value="$PROJECT_DIR$/src/template/header.html" />
+        <option value="$PROJECT_DIR$/src/template/wrapper.html" />
+        <option value="$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss" />
+        <option value="$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/index.html" />
+        <option value="$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/mobile.css" />
+        <option value="$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/desktop.css" />
       </list>
     </option>
   </component>
@@ -120,6 +202,47 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>html:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>style:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>image:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="html:build" />
+              <dependency value="style:build" />
+              <dependency value="image:build" />
+            </dependencies>
+            <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>webserver</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="build" />
+              <dependency value="webserver" />
+              <dependency value="watch" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="JsbtTreeLayoutManager">
@@ -133,13 +256,15 @@
       </selected-paths>
     </layout>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -155,8 +280,199 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestTask2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="TestTask2" />
@@ -192,13 +508,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DataRoot/TestTask2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Bodicj\Desktop\DataRoot\TestTask№2\node_modules\gulp" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -322,7 +637,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dce553d7-03e5-40d4-b701-171dba1bf534" name="Default" comment="" />
-      <changelist id="9f671c86-d506-4137-a178-bf1d7cd2ab66" name="Add a mobile version of responcive" comment="" />
       <created>1491915713639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -331,23 +645,15 @@
       <workItem from="1491919629667" duration="13129000" />
       <workItem from="1491973654652" duration="8456000" />
       <workItem from="1492024616484" duration="3787000" />
-      <workItem from="1492084429219" duration="7033000" />
-      <workItem from="1492113379593" duration="1624000" />
-      <workItem from="1492115208736" duration="356000" />
-      <workItem from="1492172022484" duration="655000" />
+      <workItem from="1492084429219" duration="7584000" />
+      <workItem from="1492172694361" duration="38931000" />
+      <workItem from="1492272000445" duration="7566000" />
+      <workItem from="1492512734907" duration="10779000" />
     </task>
-    <task id="LOCAL-00001" summary="Add a mobile version of responcive">
-      <created>1492114671379</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1492114671379</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37790000" />
+    <option name="totallyTimeSpent" value="92982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,23 +665,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.509009" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32952693" sideWeight="0.490991" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -389,9 +694,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24181548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -403,50 +708,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a mobile version of responcive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a mobile version of responcive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_header_modules.scss" />
-    <entry file="file://$PROJECT_DIR$/src/template/wrapper.html" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_body.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_wrapper__container.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_main_button.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss" />
-    <entry file="file://$PROJECT_DIR$/src/template/header.html" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_header.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_navbar.scss" />
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/template/header.html" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_header_modules.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_body.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_header.scss" />
     <entry file="file://$PROJECT_DIR$/build/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -454,31 +723,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_navbar.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/main.scss" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/utilites/_utils.scss" />
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/src/template/header.html" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/utilites/_utils.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/img/ShapeForList.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/utilites/_utils.scss" />
     <entry file="file://$PROJECT_DIR$/src/template/navbar.html" />
     <entry file="file://$PROJECT_DIR$/src/template/header_content.html" />
-    <entry file="file://$PROJECT_DIR$/../Responcive design/Styles/style.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_variation.scss" />
-    <entry file="file://$PROJECT_DIR$/src/template/slider.html" />
-    <entry file="file://$PROJECT_DIR$/src/template/header.html" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss" />
-    <entry file="file://$PROJECT_DIR$/../Responcive design/Styles/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_html.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_header.scss" />
-    <entry file="file://$PROJECT_DIR$/../Responcive design/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/template/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Responcive design/Styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="241" column="18" lean-forward="false" selection-start-line="241" selection-start-column="18" selection-end-line="241" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/bodcj/Bodicj.github.io/Responcive/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -486,43 +802,386 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
-          <caret line="0" column="561" lean-forward="false" selection-start-line="0" selection-start-column="561" selection-end-line="0" selection-end-column="561" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_navbar.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_wrapper.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_main_button.scss" />
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/bodcj/Bodicj.github.io/Responcive/Styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6256">
-          <caret line="368" column="47" lean-forward="false" selection-start-line="368" selection-start-column="47" selection-end-line="368" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="369" column="47" lean-forward="false" selection-start-line="361" selection-start-column="8" selection-end-line="369" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="561" lean-forward="false" selection-start-line="0" selection-start-column="561" selection-end-line="0" selection-end-column="561" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_flats.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_metrovka.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="10" lean-forward="false" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_wrapper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_page_selector.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/main.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_header_modules.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_flats.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_body.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_watch_more_button.scss" />
-    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_wrapper__container.scss" />
-    <entry file="file://$PROJECT_DIR$/src/template/wrapper.html" />
-    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Responcive design/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Responcive design/Styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="29" lean-forward="false" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_html.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_footer_block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_wrapper__container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_main_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_variation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/utilites/_utils.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13649" lean-forward="false" selection-start-line="0" selection-start-column="13649" selection-end-line="0" selection-end-column="13649" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/state/_state.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="202" column="14" lean-forward="true" selection-start-line="197" selection-start-column="8" selection-end-line="202" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#wrapper#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1492529202396" expanded="true" signature="280:1856" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="313:1352" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="351:1025" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="900:1001" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1054:1283" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1094:1221" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1381:1856" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1472:1856" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1517:1856" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1616:1856" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1715:1850" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="1950:2350" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="2044:2327" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3699:15047" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3699:3886" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3699:3871" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="2773:3310" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3699:3722" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3419:3607" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="3960:6910" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4040:6776" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4075:4719" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4120:4201" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4246:4415" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4529:4696" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4754:5399" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4799:4880" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="4925:5095" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="5209:5376" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="5434:6078" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="5479:5560" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="5605:5774" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="5888:6055" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6113:6757" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6158:6239" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6284:6453" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6567:6734" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6817:6895" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="6984:10484" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="7076:7585" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="7617:10353" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="7652:8296" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="7697:7778" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="7823:7992" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="8106:8273" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="8331:8976" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="8376:8457" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="8502:8672" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="8786:8953" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9011:9655" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9056:9137" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9182:9351" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9465:9632" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9690:10334" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9735:9816" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="9861:10030" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="10144:10311" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="10394:10469" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="10556:12626" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="10601:10830" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="10896:11276" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11309:12442" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11345:11415" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11458:12423" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11513:12400" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11565:11725" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11777:12234" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="11888:12203" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="12481:12611" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="12694:15032" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="12734:14908" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="12774:12996" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13031:13621" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13086:13167" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13214:13598" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13270:13479" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13656:14253" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13718:13801" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13849:14229" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="13906:14108" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="14288:14888" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="14348:14431" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="14479:14864" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="14536:14743" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="14949:15017" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15060:17121" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15094:17045" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15147:15485" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15234:15466" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15541:15838" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15626:15819" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15892:16173" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="15980:16154" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="16226:17030" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="16298:16602" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="16639:17011" ph="..." />
+            <marker date="1492529202396" expanded="true" signature="16686:16815" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_hamburger_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_hamburger_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_watch_more_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_header_modules.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="129" column="2" lean-forward="false" selection-start-line="129" selection-start-column="2" selection-end-line="137" selection-end-column="3" />
+          <folding>
+            <element signature="e#903#1045#0" expanded="false" />
+            <element signature="e#1236#1347#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/module/_metro_station_list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/wrapper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="75" column="48" lean-forward="false" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1732">
+          <caret line="0" column="12866" lean-forward="false" selection-start-line="0" selection-start-column="12866" selection-end-line="0" selection-end-column="12866" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/Bodicj.github.io/TestTask2/build/css/desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

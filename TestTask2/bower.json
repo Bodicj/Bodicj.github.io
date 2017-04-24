@@ -1,0 +1,21 @@
+{
+  "name": "landing__num2",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Bodicj <Bodicj@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}

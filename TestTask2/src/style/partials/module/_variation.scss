@@ -1,0 +1,28 @@
+@import "../utilites/utils";
+
+.place_variation{
+  @include size(236px, 28px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .RB_variation{
+    display: none;
+  }
+  label{
+    display: inline-flex;
+    font-size: 14px;
+    border-bottom: 2px solid white;
+  }
+  #flats{
+    border-bottom: 2px solid $green;
+  }
+}
+#telegram_variation{
+  @include size(95.55%, 27px);
+  #property{
+    border-bottom: 2px solid $green;
+  }
+  #clients{
+    border-bottom: 2px solid darkgrey;
+  }
+}

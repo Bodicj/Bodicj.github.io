@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import "partials/base/html";
+@import "partials/base/body";
+@import "partials/base/footer";
+@import "partials/base/header";
+@import "partials/base/wrapper";
+
+@import "partials/layout/navbar";
+
+@import "partials/module/post";
+@import "partials/module/flats";
+@import "partials/module/footer_block";
+@import "partials/module/header_modules";
+@import "partials/module/main_button";
+@import "partials/module/metro_station_list";
+@import "partials/module/metrovka";
+@import "partials/module/page_selector";
+@import "partials/module/variation";
+@import "partials/module/watch_more_button";
+@import "partials/module/wrapper__container";
+
+@import "partials/state/state";
+
+@import "partials/utilites/utils";
