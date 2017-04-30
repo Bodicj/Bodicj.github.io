@@ -40,7 +40,7 @@ var config = {
     },
     tunnel: true,
     host: 'localhost',
-    port: 9000,
+    port: 7000,
     logPrefix: "Responcive_proj_v.1.0"
 };
 

@@ -1,0 +1,35 @@
+select option[disabled]:first-child {
+    display: none;
+}
+
+.popup{
+    width: 300px;
+    display: flex;
+}
+.popup input{
+    display: inline-flex;
+    width: 250px;
+}
+.popup .button-arrow{
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.popup .button-arrow p{
+    margin: 0px;
+}
+ul{
+    display: block;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none;
+    width: 252px;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: none;
+    border-bottom: 1px solid lightgrey;
+    height: 25px;
+}
