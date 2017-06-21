@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Продажа недвижимости</title>
-    <link rel="stylesheet" href="../build/css/mobile.css" media="(min-width:360px) and (max-width: 1279px)">
-    <link rel="stylesheet" href="../build/css/desktop.css" media="(min-width: 1280px)">
+    <link rel="stylesheet" media="(max-device-width: 1279px)" href="../build/css/mobile.css">
+    <link rel="stylesheet" media="(min-device-width: 1280px)" href="../build/css/desktop.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 </head>
 <body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".popup_list").select2({
+                placeholder: "Select a city",
+                allowclear: true
+            });
+        })
+    </script>
     <header class="header">
         <nav class="navigation">
             <div class="nav_content">
@@ -38,13 +49,14 @@
             <div class="Components_hdr">
                 <div class="Component_city">
                     <p id="City_p">Выберите город</p>
-                    <div class="Popup_list">
-                        <img src="..\build\img\ShapeForList.png">
-                        <select>
-                            <option>Киев</option>
-                            <option>Львов</option>
-                        </select>
-                    </div>
+                    <select class="popup_list">
+                        <option value="KY">Kyiv</option>
+                        <option value="RN">Rivne</option>
+                        <option value="DN">Dipro</option>
+                        <option value="KH">Kharkiv</option>
+                        <option value="LV">Lviv</option>
+                        <option value="OD">Odessa</option>
+                    </select>
                 </div>
                 <div class="Component_room">
                     <p id="Rooms_p">Кол-во комнат</p>
@@ -73,15 +85,26 @@
                     <input type="radio" id="radio_wrapper_offices" class="RB_variation" >
                     <label id="offices"for="radio_wrapper_offices">Офисы</label>
                 </div>
-                <div class="metro_station_list">
-                    <div class="metro_station_list_branch">
-                        <img src="..\build\img\ShapeForList.png">
-                        <select>
+                        <select class="popup_list" style="width: 309px">
+                            <option>Лесная</option>
+                            <option>Дарница</option>
+                            <option>Черниговская</option>
+                            <option>Левобережная</option>
+                            <option>Гидропарк</option>
+                            <option>Днепр</option>
+                            <option>Арсенальная</option>
+                            <option>Крещатик</option>
+                            <option>Театральная</option>+
+                            <option>Университет</option>
+                            <option>Вокзальная</option>
                             <option>Политехнический институт</option>
                             <option>Шулявская</option>
+                            <option>Берестейская</option>
+                            <option>Святошинио</option>
+                            <option>Нивки</option>
+                            <option>Житомирская</option>
+                            <option>Академгородок</option>
                         </select>
-                    </div>
-                </div>
                 <div class="main_button" id="main_button_container_metro"><p class="btn_2_p">Показать результаты поиска</p></div>
             </div>
         </div>
@@ -338,9 +361,9 @@
             <div class="footer_block" id="Contacts">
                 <h1>Контакты</h1>
                 <div class="Socials">
-                    <img class="menu_head_button" alt="Facebook" id="facebook" src="../build/img/facebook.png">
-                    <img class="menu_head_button" alt="Vk" id="vk" src="../build/img/vk.png">
-                    <img class="menu_head_button" alt="Instagram" id="instagram" src="../build/img/instagram.png">
+                    <img class="menu_head_button" id="facebook" src="../build/img/facebook.png">
+                    <img class="menu_head_button" id="vk" src="../build/img/vk.png">
+                    <img class="menu_head_button" id="instagram" src="../build/img/instagram.png">
                 </div>
                 <div class="adress">
                    <div class="adress_street">
