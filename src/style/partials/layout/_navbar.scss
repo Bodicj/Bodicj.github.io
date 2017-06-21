@@ -1,0 +1,8 @@
+@import "../utilites/utils";
+.navigation{
+    @include size(328px, 35px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #30AE63;
+}

@@ -1,0 +1,77 @@
+@import "../utilites/utils";
+
+.post{
+  @include size(100%, 326px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 0.5px solid #DFE3E6;
+  border-right: 0.5px solid #DFE3E6;
+  border-bottom: 2px solid #DFE3E6;
+  .images{
+    @include size(100%, 196px);
+    .flat_more{
+      display: flex;
+      width: 20px;
+      height: 36px;
+      float: right;
+      background-image: url(../../build/img/Group8.png);
+      margin-top: 11px;
+      margin-right: 9px;
+      margin-left: 174px;
+    }
+  }
+  .post_content{
+    @include size(87.5%, 104px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    .post_content_text{
+      @include size(87.5%, 68px);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: flex-start;
+      h2{
+        @include size(100%, 16px);
+        font-size: 11px;
+        color: #BA8FF7;
+        margin: 0px;
+        text-align: left;
+      }
+      .post_content_paragraph{
+        @include size(100%, 48px);
+        font-size: 14px;
+        margin: 0px;
+        text-align: left;
+      }
+    }
+    .post_content_author{
+      font-size: 12px;
+      color: #8C9BA5;
+      margin: 0px;
+    }
+  }
+}
+
+#Lifehack{
+  background-image: url("../img/lifehack_photo.png");
+}
+#Metrovka_guide{
+  background-image: url("../img/metrovka_guide.png");
+}
+#Technologies{
+  background-image: url("../img/technologies.png");
+}
+
+#Metrovka_h{
+  color: $green;
+}
+#Tech_h{
+  color: #2573D8;
+}

@@ -1,0 +1,9 @@
+@import "../utilites/utils";
+wrapper{
+  @include size(360px, 3392px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  margin-top: 20px;
+}

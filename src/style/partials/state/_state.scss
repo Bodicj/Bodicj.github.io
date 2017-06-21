@@ -1,0 +1,15 @@
+.main_button:hover{
+  background-color: #50DB88;
+  border-color: #50DB88;
+}
+.Search .Components_hdr #Search_btn:hover{
+  background-color: $green;
+  color: #ffffff;
+  border:1px solid white;
+  a{
+    color: white;
+  }
+}
+.place_variation label:hover{
+  border-bottom: 2px solid $green;
+}
