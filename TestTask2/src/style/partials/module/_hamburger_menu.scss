@@ -1,41 +1,41 @@
 @import "../utilites/utils";
+@import "../../bourbon/bourbon";
 
 .layer{
-
-    @include size(360px, 672px);
-    margin-top: 8px;
+    width: 390px;
+    height: 4945px;
+    top: -42px;
+    transition: all 0.2s ease-out;
+    left: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
     position: absolute;
-    display: flex;
-    padding-top: 24px;
-    flex-wrap: wrap;
-    background-color: black;
-    background-image: url(../../build/img/Rectangle2.png);
-    justify-content: flex-start;
-    align-content: flex-start;
-    z-index:2;
-}
-#menu_nav_mobile{
-    margin-left: 16px;
-}
-#ham{
-    @include size(26.67px, 17px);
-    background-image: url("../../build/img/menu_icon.png");
-}
-.menu_mobile_list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    li{
-        margin-left: 66px;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 40px;
-        font-size: 13px;
-        padding-bottom: 3px;
-        padding-left: 20px;
-        color: white;
-        padding-top: 3px;
+    margin-top: 40px;
+    z-index: 1;
+    .logo{
+        display: inline-flex;
+        margin-left: 20px;
+        margin-top: 30px;
     }
-    li:hover{
-        border-bottom: 2px solid white;
+    .menu_mobile_list{
+        display: inline-grid;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 19px;
+        line-height: 35px;
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+      li:hover{
+        color: rgba(255, 255, 255, 1.0);
+        cursor: pointer;
+      }
+    }
+}
+.toggler{
+    display: none;
+    &:checked+.mainlayer{
+        .layer{
+          left: 480px;
+        }
     }
 }

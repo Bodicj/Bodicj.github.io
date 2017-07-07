@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bourbon": "^4.3.4",
     "gulp": "^3.8.11"
   },
   "devDependencies": {

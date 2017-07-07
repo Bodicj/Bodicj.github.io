@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Продажа недвижимости</title>
-    <link rel="stylesheet" media="(max-device-width: 1279px)" href="../build/css/mobile.css">
-    <link rel="stylesheet" media="(min-device-width: 1280px)" href="../build/css/desktop.css">
+    <!--<link rel="stylesheet" media="(max-device-width: 1279px)" href="../build/css/mobile.css">
+    <link rel="stylesheet" media="(min-device-width: 1280px)" href="../build/css/desktop.css">-->
+    <link rel="stylesheet" href="../build/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
@@ -19,8 +20,12 @@
             });
         })
     </script>
-    //= template/header.html
-    //= template/wrapper.html
-    //= template/footer.html
+    <input type="checkbox" id="slidertoggler" class="toggler">
+    <div class="mainlayer">
+        //= template/_hamburger_menu.html
+        //= template/header.html
+        //= template/wrapper.html
+        //= template/footer.html
+    </div>
 </body>
 </html>

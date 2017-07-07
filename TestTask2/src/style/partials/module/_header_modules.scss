@@ -40,6 +40,7 @@ p{
   display: none;
 }
 .menu_head_button{
+  z-index: 1;
   @include size(26.67px, 17px);
   background-image: url("../../build/img/menu_icon.png");
 }
