@@ -2,6 +2,7 @@
 @import "../../bourbon/bourbon";
 
 .layer{
+    display: none;
     width: 390px;
     height: 4945px;
     top: -42px;
@@ -35,7 +36,8 @@
     display: none;
     &:checked+.mainlayer{
         .layer{
-          left: 480px;
+          left: 0px;
+          display: block;
         }
     }
 }
