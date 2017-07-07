@@ -4,6 +4,7 @@ footer{
   @include size(100%, 993px);
   margin: 0px;
   display: flex;
+  z-index: 1;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;

@@ -2,6 +2,7 @@
 @import "../../bourbon/bourbon";
 
 .layer{
+
     width: 390px;
     height: 4945px;
     top: -42px;
@@ -12,7 +13,7 @@
     color: white;
     position: absolute;
     margin-top: 40px;
-    z-index: -1;
+    z-index: 0;
     .logo{
         display: inline-flex;
         margin-left: 20px;
@@ -26,9 +27,11 @@
         line-height: 35px;
         color: rgba(255, 255, 255, 0.8);
         margin: 0;
+      li{
+        display: none;
+      }
       li:hover{
         color: rgba(255, 255, 255, 1.0);
-        cursor: pointer;
       }
     }
 }
@@ -38,6 +41,12 @@
         .layer{
           opacity: 1;
           z-index: 1;
+          .menu_mobile_list{
+            li{
+              display: block;
+              cursor: pointer;
+            }
+          }
         }
     }
 }

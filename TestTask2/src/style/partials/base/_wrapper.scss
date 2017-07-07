@@ -2,6 +2,7 @@
 wrapper{
   @include size(360px, 3392px);
   display: flex;
+  z-index: 1;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-between;
