@@ -2,17 +2,17 @@
 @import "../../bourbon/bourbon";
 
 .layer{
-    display: none;
     width: 390px;
     height: 4945px;
     top: -42px;
-    transition: all 0.2s ease-out;
-    left: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    left: 0px;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     position: absolute;
     margin-top: 40px;
-    z-index: 1;
+    z-index: -1;
     .logo{
         display: inline-flex;
         margin-left: 20px;
@@ -36,8 +36,7 @@
     display: none;
     &:checked+.mainlayer{
         .layer{
-          left: 0px;
-          display: block;
+          opacity: 1;
         }
     }
 }
