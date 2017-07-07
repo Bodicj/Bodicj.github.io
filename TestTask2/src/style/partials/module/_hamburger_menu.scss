@@ -37,6 +37,7 @@
     &:checked+.mainlayer{
         .layer{
           opacity: 1;
+          z-index: 1;
         }
     }
 }
