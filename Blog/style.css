@@ -192,4 +192,7 @@ h1{
     .article_description{
         max-height: 300px;
     }
+    .container{
+        padding: 0 5px;
+    }
 }
