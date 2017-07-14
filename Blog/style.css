@@ -26,10 +26,10 @@ h1{
     border-top: 1px solid #ddd;
 }
 .article_image{
-    width: 47.5%;
-    display: flex;
-    margin: 0 2.5%
-}
+     width: 47.5%;
+     display: flex;
+     margin: 0 2.5%
+ }
 .article_image img {
     width: 100%;
 }
@@ -94,13 +94,9 @@ h1{
     color: #eecaa2;
 }
 .read_more{
-    letter-spacing: 0;
     text-transform: uppercase;
     padding: 13px 19px;
-    font-weight: bold;
     border: 2px solid #eecaa2;
-    line-height: 20px;
-    font-size: 16px;
     color: #444;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -111,7 +107,7 @@ h1{
     border-radius: 0;
     display: inline-block;
     background-color: transparent;
-    letter-spacing: .8px;
+    letter-spacing: 0.8px;
     text-decoration: none;
     font: 700 16px/20px "Ubuntu", sans-serif;
 }
