@@ -76,13 +76,13 @@
                 </div>
                 <div class="create_comment">
                     <h2 class="user_comment_header">leave your comment</h2>
-                    <div class="user_create_comment">
+                    <form class="user_create_comment" id="comment_form">
                         <label for="user_comment_name" class="comment_labels"><strong>Your Name:</strong></label>
-                        <textarea id="user_comment_name"></textarea>
+                        <input type="text" id="user_comment_name" required></input>
                         <label for="user_comment" class="comment_labels"><strong>Your Comment:</strong></label>
                         <textarea id="user_comment"></textarea>
-                    </div>
-                    <a class="submit_comment_btn" href="#">submit comment</a>
+                    </form>
+                    <button type="submit" form="comment_form" class="submit_comment_btn" href="#">submit comment</button>
                 </div>
             </div>
         </div>
