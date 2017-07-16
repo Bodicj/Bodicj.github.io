@@ -259,5 +259,10 @@
     .form_group_inputs{
         width: 90% !important;
         margin-left: 0 !important;
+        align-items: flex-start;
     }
+    #new_comment{
+        width: 82% !important;
+    }
+
 }
