@@ -171,6 +171,9 @@ h1{
     .article_image{
         height: 250px;
     }
+    .article_description .description{
+        max-height: 260px;
+    }
     .blog_article{
         max-height: 800px;
     }
