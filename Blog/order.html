@@ -14,34 +14,36 @@
         <fieldset id="account">
         <legend>Ваши данные</legend>
         <div class="form_group">
-            <div class="new_client_btn">Я новый клиент</div>
+            <button type="submit" form="Name_form" class="new_client_btn">Я новый клиент</button>
             <div class="delimiter">или</div>
             <div class="personal_account_btn">Войти в личный кабинет</div>
         </div>
-        <div class="form_group_inputs" id="name_group">
-            <div class="main_form_required" id="new_name">
-                <label class="required_label" for="name">Ваше имя</label>
-                <input class="main_input_required" type="text" id="name" placeholder="Ваше имя"></input>
-            </div>
-            <div class="main_form_required" id="new_surname">
-                <label class="required_label" for="surname">Ваша Фамилия</label>
-                <input class="main_input_required" type="text" id="surname" placeholder="Ваша Фамилия"></input>
-            </div>
-        </div>
-        <div class="form_group_inputs">
-            <div class="main_form_required" id="new_email">
-                <label class="required_label" for="email">E-mail</label>
-                <input class="main_input_required" type="email" id="email" placeholder="E-Mail"></input>
-            </div>
-            <div class="main_form_required" id="new_phone_num">
-                <label class="required_label" for="phone">Телефон</label>
-                <input class="main_input_required" type="tel" id="phone" placeholder="Телефон"></input>
-            </div>
-        </div>
-        <div class="form_group_inputs" id="new_comment">
-                <label class="not_required_label" for="comment">Комментарий</label>
-                <textarea class="main_input_required" id="comment" placeholder="Комментарий"></textarea>
-            </div>
+            <form id="Name_form">
+                <div class="form_group_inputs" id="name_group">
+                    <div class="main_form_required" id="new_name">
+                        <label class="required_label" for="name">Ваше имя</label>
+                        <input class="main_input_required" type="text" id="name" placeholder="Ваше имя" required></input>
+                    </div>
+                    <div class="main_form_required" id="new_surname">
+                        <label class="required_label" for="surname">Ваша Фамилия</label>
+                        <input class="main_input_required" type="text" id="surname" placeholder="Ваша Фамилия" required></input>
+                    </div>
+                </div>
+                <div class="form_group_inputs">
+                    <div class="main_form_required" id="new_email">
+                        <label class="required_label" for="email">E-mail</label>
+                        <input class="main_input_required" type="email" id="email" placeholder="E-Mail" required></input>
+                    </div>
+                    <div class="main_form_required" id="new_phone_num">
+                        <label class="required_label" for="phone">Телефон</label>
+                        <input class="main_input_required" type="tel" id="phone" placeholder="Телефон" required></input>
+                    </div>
+                </div>
+                <div class="form_group_inputs" id="new_comment">
+                        <label class="not_required_label" for="comment">Комментарий</label>
+                        <textarea class="main_input_required" id="comment" placeholder="Комментарий"></textarea>
+                    </div>
+            </form>
     </fieldset>
         <fieldset id="payment">
             <legend>Оплата и доставка</legend>
