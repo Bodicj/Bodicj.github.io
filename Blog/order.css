@@ -56,7 +56,7 @@
     padding: 0 15px;
 }
 #comment{
-    width: 78.55%;
+    width: 77.15%;
     padding: 13px 10px 13px 20px;
     margin: 0;
     font: 300 14px/20px "Ubuntu", sans-serif;
@@ -178,6 +178,9 @@
 .material-icons{
     color: #eecaa2;
     font-size: 20px !important;
+}
+#Name_form{
+    width: 100%;
 }
 @media(max-width: 1200px){
     .container{
