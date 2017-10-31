@@ -9,9 +9,9 @@ $(document).ready(function () {
         $target = $(target);
 
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top-80
+            'scrollTop': $target.offset().top-93
         }, 900, 'swing', function () {
-            window.location.hash = target - 80;
+            window.location.hash = target - 93;
         });
     });
     $('.hamburger-menu').click(function (e){
