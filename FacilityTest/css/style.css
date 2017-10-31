@@ -42,7 +42,7 @@ header {
     position: fixed;
     z-index: 6;
     background: white;
-    width: 100%;
+    width: 95%;
     top: 0;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -363,6 +363,7 @@ button:hover {
 @media screen and (max-width: 1024px) {
     header {
         padding: 0 40px;
+        width: 92.5%;
     }
 
     #logo {
@@ -416,6 +417,9 @@ button:hover {
     }
 }
 @media screen and (max-width: 768px) {
+    header {
+        width: 90%;
+    }
     #logo {
         width: 32.42%;
     }
