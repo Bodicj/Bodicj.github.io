@@ -48,7 +48,9 @@ header {
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
-
+#close {
+    display: none;
+}
 #logo {
     display: flex;
     flex-flow: row nowrap;
