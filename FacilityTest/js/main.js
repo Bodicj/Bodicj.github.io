@@ -42,4 +42,7 @@ $(document).ready(function () {
             $('.close').css('display', 'none');
         }
     });
+    $('.popup-btn').click(function (e) {
+        $('#win').removeAttr('style');
+    });
 });

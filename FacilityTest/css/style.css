@@ -44,9 +44,9 @@ header {
     background: white;
     width: 92%;
     top: 0;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
 
 #logo {
@@ -306,6 +306,10 @@ nav a:hover {
         width: 48.373%;
         font-size: 13px;
     }
+    .visible {
+        left: 31%;
+        width: 67%;
+    }
 }
 @media screen and (max-width: 425px) {
     body {
@@ -366,9 +370,151 @@ nav a:hover {
     nav a {
         margin-bottom: 40px;
     }
+    .visible {
+        left: 13%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .modal_one_click input {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 320px){
     #columns {
         margin-top: 126px;
     }
+
+    .modal_one_click input {
+        width: 100%;
+    }
+}
+
+.overlay {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: .9;
+}
+.visible {
+    background: white;
+    position: fixed;
+    left: 39%;
+    top: 47%;
+    margin-top: -200px;
+    overflow: hidden;
+    z-index: 2000;
+    width: 50%;
+    padding: 0;
+    margin-left: -13.1325%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#close_modal{
+    position: absolute;
+    right: -2%;
+    text-align: end;
+    font-size: 19px;
+    line-height: 20px;
+    margin: 1.2em;
+    margin-top: 13px;
+    margin-left: 23%;
+    margin-bottom: -20px;
+    border: none;
+    background: transparent;
+    color: #646464;
+}
+#close_modal:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+#win button[type="button"]:hover {
+    cursor: pointer;
+    color: navy;
+}
+#win h3 {
+    text-align: center;
+    color: #555;
+}
+.content_modal {
+    padding: 0 1em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: WhiteSmoke;
+}
+.modal_one_click{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+button:hover {
+    cursor: pointer;
+}
+.modal_one_click input:focus, button:focus {
+    outline: none;
+}
+.modal_one_click input {
+    width: 140%;
+    border-radius: 10px;
+    margin: 10px;
+    color: #646464;
+    border: 1px solid #646464;
+    background: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Gotham Pro", sans-serif;
+    margin-left: 3%;
+    margin-right: 0;
+    text-align: center;
+    padding: 20px;
+}
+.modal_inputs{
+    margin-left: 5%;
+    color: white;
+}
+#prod_modal {
+    margin: 40px;
+    margin-top: 15px;
+    border: none;
+}
+#Name_modal{
+    margin-left: 3%;
+    width: 59%;
+    padding: 10px;
+}
+.heading_modal{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.heading_modal h1 {
+    color: #000;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 39px;
+}
+#btn_modal {
+    margin: 30px auto;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    padding: 16px 0px;
+    background: #646464;
+    border-radius: 18px;
+    text-transform: uppercase;
+    border: 0px solid #FFF;
+    color: white;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    width: 43%;
+}
+#email-modal {
+    margin-bottom: 0;
 }

@@ -15,6 +15,20 @@
     <title>Facility Test</title>
 </head>
 <body>
+<div id="win" style="display:none;">
+    <div class="overlay" onClick="getElementById('win').style.display='none';"></div>
+    <div class="visible">
+        <div class="heading_modal">
+            <h1>This is popup</h1>
+            <button id="close_modal" type="button" onClick="getElementById('win').style.display='none';">&times;</button>
+        </div>
+        <form id="Mainmodal"class="modal_one_click">
+            <input id="name-modalmodal" type="text" placeholder="Your name" required>
+            <input id="email-modal" type="email" placeholder="Your e-mail" required>
+        </form>
+        <button id="btn_modal" class="btn" form="Mainmodal" type="submit">Submit</button>
+    </div>
+</div>
 <header>
     <div class="hamburger-menu">&#9776;</div>
     <div class="close">&times;</div>
