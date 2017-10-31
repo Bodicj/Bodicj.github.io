@@ -5,6 +5,13 @@ $(document).ready(function () {
     $('a[href^="#"]').bind('click.smoothscroll', function (e) {
         e.preventDefault();
 
+        if ($('header').css('height') != '80px') {
+            $('header').css('height', '80px');
+            $('nav').css('display', 'none');
+            $('.hamburger-menu').css('display', 'block');
+            $('.close').css('display', 'none');
+        }
+
         var target = this.hash,
         $target = $(target);
 
