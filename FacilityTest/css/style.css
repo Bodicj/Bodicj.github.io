@@ -42,7 +42,7 @@ header {
     position: fixed;
     z-index: 6;
     background: white;
-    width: 92%;
+    width: 100%;
     top: 0;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
