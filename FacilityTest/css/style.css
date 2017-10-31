@@ -292,7 +292,14 @@ nav a:hover {
         font-size: 13px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
+    .slide p {
+        width: 78.373%;
+        font-size: 12px;
+    }
+    .slide h1 {
+        font-size: 25px;
+    }
     .columns {
         flex-flow: column nowrap;
     }
@@ -306,13 +313,6 @@ nav a:hover {
     }
 }
 @media screen and (max-width: 320px){
-    .slide p {
-        width: 78.373%;
-        font-size: 12px;
-    }
-    .slide h1 {
-        font-size: 25px;
-    }
     #columns {
         margin-top: 126px;
     }
