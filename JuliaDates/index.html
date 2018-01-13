@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JuliaDates</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+<header>
+    <img class="logo" alt="logo" id="logo" src="img/Logo.png">
+    <nav id="nav-block">
+        <a href="#">Поиск</a>
+        <a href="#">Мои переписки</a>
+        <a href="#">Избранное</a>
+        <a href="#">Кто смотрел</a>
+    </nav>
+    <div class="pa-status">
+        <div class="pa-class" id="premium">
+            <p>Премиум</p>
+            <div id="info"><img src="img/Notice.png" alt="Notice">
+                <div class="info-popup">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="credits">100 кредитов</p>
+        <div class="avatar"><img alt="avatar" class="avatar" src="img/avatar.png"></div>
+        <a href="#" class="dropdown"><img alt="dropdown" src="img/dropdown.png"></a>
+    </div>
+</header>
+<div class="head-row">
+    <div class="top-girls">
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top1.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top2.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top3.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top4.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top5.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top6.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top7.png">
+        </a>
+        <a class="top-girl" href="#">
+            <img alt="top1" src="img/top8.png">
+        </a>
+    </div>
+</div>
+<h1>Я ищу</h1>
+<div class="main-content filter">
+    <form id="req-form">
+    <div class="select-group">
+        <select>
+            <option>Парня</option>
+            <option>Девушку</option>
+        </select>
+        <img src="img/arrow-btm.png">
+    </div>
+    <div class="input-group">
+        <input id="city" type="text" placeholder="Город">
+        <img id="clear-input" name="city" src="img/close.png">
+    </div>
+    <div class="slider-group">
+        <p>Возраст</p>
+    <div class="slider" id="age-slider"></div>
+    </div>
+    <button type="submit">Найти</button>
+    </form>
+</div>
+<div class="main-content advanced-search">
+    <span></span>
+    <div class="text-block">
+        <p>Расширеный поиск</p>
+        <img src="img/arrow-btm.png">
+    </div>
+    <span></span>
+</div>
+<div class="bg">
+    <div class="main-content main-girls">
+        <div class="selector">
+            <a href="#" class="selector-point" id="sel-online">Онлайн</a>
+            <a href="#" class="selector-point active" id="sel-new">Новые</a>
+            <a href="#" class="selector-point" id="sel-popular">Популярные</a>
+        </div>
+        <div class="girls-list">
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>12</p>
+                </div>
+                <div class="top">топ</div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl1.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Кристиночка</span>, <span class="age">28</span> <span class="online active"></span> </p>
+                    <p class="locate"><span class="city">Санкт-Петербург</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>3</p>
+                </div>
+                <div class="top">топ</div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl2.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Диана</span>, <span class="age">20</span> <span class="online active"></span> </p>
+                    <p class="locate"><span class="city">Самара</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>145</p>
+                </div>
+                <div class="top">топ</div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl3.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Аня</span>, <span class="age">18</span> <span class="online active"></span> </p>
+                    <p class="locate"><span class="city">Ростов-на-Дону</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>17</p>
+                </div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl4.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Анжелика</span>, <span class="age">27</span> <span class="online"></span> </p>
+                    <p class="locate"><span class="city">Чебоксары</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>12</p>
+                </div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl5.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Лариса</span>, <span class="age">30</span> <span class="online active"></span> </p>
+                    <p class="locate"><span class="city">Москва</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>3</p>
+                </div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl6.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Настя</span>, <span class="age">21</span> <span class="online"></span> </p>
+                    <p class="locate"><span class="city">Зеленоград</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>4</p>
+                </div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl7.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Евгения</span>, <span class="age">30</span> <span class="online"></span> </p>
+                    <p class="locate"><span class="city">Ростов-на-Дону</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <div class="girl">
+                <div class="num-photos">
+                    <img src="img/camera.png">
+                    <p>28</p>
+                </div>
+                <img class="girl-avatar" alt="avatar-girl" src="img/girl8.png">
+                <div class="soc-buttons">
+                    <div class="soc-butn" id="favorite">
+                        <img src="img/favourites.png">
+                        <p>Избранное</p>
+                    </div>
+                    <div class="soc-butn" id="mail">
+                        <img src="img/mailto.png">
+                        <p>Написать</p>
+                    </div>
+                </div>
+                <div class="girl-preview">
+                    <p class="name-age"><span class="name">Ольга</span>, <span class="age">25</span> <span class="online"></span> </p>
+                    <p class="locate"><span class="city">Казань</span>, <span class="country">Россия</span> </p>
+                </div>
+            </div>
+            <a href="#" class="to-top"></a>
+        </div>
+        <div class="pagination">
+            <a href="#" class="page-point"><</a>
+            <a href="#" class="page-point active">1</a>
+            <a href="#" class="page-point">2</a>
+            <a href="#" class="page-point">3</a>
+            <a href="#" class="page-point">4</a>
+            <a href="#" class="page-point">5</a>
+            <a href="#" class="page-point">6</a>
+            <a href="#" class="page-point">></a>
+        </div>
+    </div>
+</div>
+<footer class="main-content footer">
+    <nav class="footer-nav">
+        <a class="footer-nav-point" href="#">Правила</a>
+        <a class="footer-nav-point" href="#">Пользовательское соглашение</a>
+        <a class="footer-nav-point" href="#">О проекте</a>
+        <a class="footer-nav-point" href="#">Обратная связь</a>
+    </nav>
+    <p>
+        ©«KIKI». Лучший on-line сервис по поиску спонсоров и содержанок, 2015-2017
+    </p>
+    <p>
+        Администрация не несёт ответственности за размещённые анкеты. Вся информация на сайте предоставлена посетителями.
+    </p>
+</footer>
+</body>
+<script>
+    $('#age-slider').slider({
+        range: true,
+        max: 40,
+        min: 18,
+        values: [19, 27],
+        change: function() {
+            var values = $( ".slider" ).slider("values");
+            $('#first-value')[0].innerHTML = values[0];
+            $('#last-value')[0].innerHTML = values[1];
+        }
+    });
+    var values = $( ".slider" ).slider("values");
+    var handle = $('.ui-slider-handle');
+    $( "<p class='handler-value' id='first-value'></p>" ).appendTo(handle[0]);
+    $( "<p class='handler-value' id='last-value'></p>" ).appendTo(handle[1]);
+    $('#first-value')[0].innerHTML = values[0];
+    $('#last-value')[0].innerHTML = values[1];
+    $('.ui-slider-handle').mousemove(function() {
+        var values = $( ".slider" ).slider("values");
+        $('#first-value')[0].innerHTML = values[0];
+        $('#last-value')[0].innerHTML = values[1];
+    });
+</script>
+</html>
