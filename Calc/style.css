@@ -22,9 +22,6 @@
     padding: 3px;
     border-radius: 3px;
 }
-.calculate:hover{
-    cursor: pointer;
-}
 #alertBox{
     background: #ffedbe;
     color: #ff6f49;
