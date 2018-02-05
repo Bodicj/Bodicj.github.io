@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/form_ajax.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/flexisel-style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <title>EuroSolar</title>
+</head>
+<body>
+    <div class="container">
+    <!--Header-->
+        <header>
+            <div class="header_feedback">
+                <span class="logo">
+                    <img src="img/logo_main.png" alt="main_logo">
+                </span>
+                <div class="phone_us">
+                    <img src="img/phone_us.png" alt="phone_us">
+                    <a href="tel:0442222222" class="phone">(044)222-22-22</a>
+                </div>
+                <div class="mail_us">
+                    <img src="img/mail_us.png" alt="mail_us">
+                    <a href="mailto:test@gmail.com" class="mail">test@gmail.com</a>
+                </div>
+                <div class="btn feedback_btn" onClick=" $('#service_modal_div').css('display' ,'none');getElementById('win').removeAttribute('style');">Перезвоните мне</div>
+            </div>
+            <div class="second_layer">
+                <ul class="head_nav">
+                    <li class="nav_element">наши услуги</li>
+                    <li class="nav_element">преимущества</li>
+                    <li class="nav_element">отзывы</li>
+                    <li class="nav_element">как мы работаем</li>
+                    <li class="nav_element">контакты</li>
+                </ul>
+                <div class="socials">
+                    <p>Мы в соц сетях:</p>
+                    <div class="social_icons"  onclick="window.location.href ='http://facebook.com';"     href="#" id="facebook"></div>
+                    <div class="social_icons"  onclick="window.location.href ='http://twitter.com';"  href="#" id="twitter"></div>
+                    <div class="social_icons"  onclick="window.location.href ='http://mail.ru';"  href="#" id="mailru"></div>
+                </div>
+            </div>
+        </header>
+    <!--Content-->
+        <div class="content">
+            <h1>Електромонтажні роботи для будь-якого<br/>рівня споживача!</h1>
+            <p>Тільки у нас найкращі спеціалісти та найширше коло послуг!</p>
+            <div class="new_order_bgrd">
+                <div class="new_order">
+                    <h2>Залишити заявку</h2>
+                    <p>Отримати стабільну електромережу з гарантією від 3-х років від<br/>
+                        досвідчених майстрів і спати спокійно!</p>
+                    <div class="request_data">
+                        <div class="radio_personal_data">
+                            <div class="request_radio" id="inputs">
+                                <input class="requests" name="requests" type="radio" value="private" id="private" checked/>
+                                <input class="requests" name="requests" type="radio" value="entity" id="entity"/>
+                                <input class="requests" name="requests" type="radio" value="developer" id="developer"/>
+                            </div>
+                            <div class="request_radio" id="labels">
+                                <label id="private_label" for="private">Приватна особа</label>
+                                <label id="entity_label" for="entity">Юридична особа</label>
+                                <label id="developer_label" for="developer">Забудовник</label>
+                            </div>
+                        </div>
+                        <form class="request_form" id="private_form">
+                                <input class="request_input" id="Name" type="text" placeholder="Имя" required/>
+                                <input class="request_input"  id="Phone"  type="tel" placeholder="Телефон" required/>
+                        </form>
+                        <form class="request_form" id="entity_form">
+                            <input class="request_input" id="Name_entity" type="text" placeholder="Имя" required/>
+                            <input class="request_input"  id="Phone_entity"  type="tel" placeholder="Телефон" required/>
+                            <input class="request_input"  id="Company " type="text"  placeholder="Название компании" />
+                        </form>
+                    </div>
+                    <p id="manager">Наш менеджер зв'яжеться  з вами в рамках 15 хвилин</p>
+                    <button type="submit" class="btn" id="btn_request" onclick="SendForm()">Отправить Заявку</button>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <div class="service">
+                <figure class="service_image">
+                    <img src="img/garage.png">
+                </figure>
+                <p>Установка силового электрооборудования</p>
+                <div class="popup">
+                    <div class="arrow-up"></div>
+                    <div class="popup-content">
+                        <p class="name_service">Различные виды типов и комплектаций коммутационно-защитного оборудования, соответствие нормам ПУЭ и ПТБ. Безопасность, практичность, удобство в обслуживании. Гарантия 3 года.</p>
+                        <div class="btn" name="Установка силового электрооборудования" onClick="getElementById('win').removeAttribute('style'); getElementById('service_modal').value = event.srcElement.attributes[1].value; ">Узнать стоимость</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <figure class="service_image">
+                    <img src="img/shileld.png">
+                </figure>
+                <p>Сборка электрический щитов</p>
+                <div class="popup">
+                    <div class="arrow-up"></div>
+                    <div class="popup-content">
+                        <p>Различные виды типов и комплектаций коммутационно-защитного оборудования, соответствие нормам ПУЭ и ПТБ. Безопасность, практичность, удобство в обслуживании. Гарантия 3 года.</p>
+                        <div class="btn"name='Сборка электрический щитов' onClick="getElementById('win').removeAttribute('style'); $('#service_modal_div').css('display' ,'block');getElementById('service_modal').value = event.srcElement.attributes[1].value; ">Узнать стоимость</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <figure class="service_image">
+                    <img src="img/smart-home.png">
+                </figure>
+                <p>Монтаж электрической сети зданий</p>
+                <div class="popup">
+                    <div class="arrow-up"></div>
+                    <div class="popup-content">
+                        <p>Различные виды типов и комплектаций коммутационно-защитного оборудования, соответствие нормам ПУЭ и ПТБ. Безопасность, практичность, удобство в обслуживании. Гарантия 3 года.</p>
+                        <div class="btn" name="Монтаж электрической сети зданий" onClick="getElementById('win').removeAttribute('style'); $('#service_modal_div').css('display' ,'block');getElementById('service_modal').value = event.srcElement.attributes[1].value; ">Узнать стоимость</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <figure class="service_image">
+                    <img src="img/server.png">
+                </figure>
+                <p>Установка систем резервного питания</p>
+                <div class="popup">
+                    <div class="arrow-up"></div>
+                    <div class="popup-content">
+                        <p>Различные виды типов и комплектаций коммутационно-защитного оборудования, соответствие нормам ПУЭ и ПТБ. Безопасность, практичность, удобство в обслуживании. Гарантия 3 года.</p>
+                        <div class="btn" name="Установка систем резервного питания" onClick="getElementById('win').removeAttribute('style'); $('#service_modal_div').css('display' ,'block');getElementById('service_modal').value = event.srcElement.attributes[1].value; "">Узнать стоимость</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <figure class="service_image">
+                    <img src="img/rozetka.png">
+                </figure>
+                <p>Обслуживание электроустановок</p>
+                <div class="popup">
+                    <div class="arrow-up"></div>
+                    <div class="popup-content">
+                        <p>Различные виды типов и комплектаций коммутационно-защитного оборудования, соответствие нормам ПУЭ и ПТБ. Безопасность, практичность, удобство в обслуживании. Гарантия 3 года.</p>
+                        <div class="btn" name="Обслуживание электроустановок" onClick="getElementById('win').removeAttribute('style'); $('#service_modal_div').css('display' ,'block');getElementById('service_modal').value = event.srcElement.attributes[1].value; ">Узнать стоимость</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wiring">
+            <h2>Электромонтаж</h2>
+            <div id="line"></div>
+            <p>Это одна из главных частей  ремонтно-строительных работ, без которых никак не обойтись. Специалисты нашей компании обладают высоким профессионализмом по выполнению проектирования электромонтажных работ и электроснабжению различных объектов и справятся с самыми сложными задачами и выполнят электромонтажные работы в квартире, доме, офисе, складских и производственных помещениях. Наша компания ответственно подходит к любому заказу и удовлетворит потребности каждого заказчика.</p>
+            <button class="btn" name="Электромонтаж" onClick="getElementById('win').removeAttribute('style'); $('#service_modal_div').css('display' ,'block');getElementById('service_modal').value = event.srcElement.attributes[1].value; ">Отправить заявку</button>
+        </div>
+        <div class="why-we">
+            Чому Вам потрібні саме ми?
+        </div>
+        <div class="why-we-examples">
+            <div class="left">
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/tag.png">
+                    </figure>
+                    <p>Составление сметы бесплатно</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/agend.png">
+                    </figure>
+                    <p>Расчет сметы в течении двух дней</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/3.png">
+                    </figure>
+                    <p>Гарантия до 3-х лет</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/diploma.png">
+                    </figure>
+                    <p>Знание технологий</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/wrench.png">
+                    </figure>
+                    <p>Наличие инструмента</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/engineer.png">
+                    </figure>
+                    <p>Все работы выполняются только профессионалами</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/gear.png">
+                    </figure>
+                    <p>Контроль качества на всех этапах производства работ</p>
+                </div>
+                <div class="why-we-example">
+                    <figure class="image-example">
+                        <img src="img/piggy-bank.png">
+                    </figure>
+                    <p>Не выходим за рамки сметной стоимости</p>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <h3>Отзывы о нашем сервисе</h3>
+            <div id="slider" class="slider">
+                <div class="carousel" >
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person3.png">
+                            <h4>Білоус Сергій Сергійович</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Купил сначала здесь iPhone 5,
+                                потом ещё заказал плёнку и чехол.
+                                Заказывал в этом магазине, ибо
+                                в других таких аксессуаров найти
+                                нигде не смог. На следующий день
+                                после заказа приехал и забрал
+                                чехол, который хотел.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person1.png">
+                            <h4>Сергій Рубан</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Полгода назад взял в компании
+                                iPhoneSale себе на День Рождения
+                                IPhone 4s. Всё работает до сих пор.
+                                И цена адекватная. В общем я остался
+                                доволен. Спасибо менеджеру
+                                Дмитрию за помощь!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person2.png">
+                            <h4>Барилко Назар</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Покупать что-либо через интернет-
+                                магазин, как я всегда думала, большой
+                                риск. Но тот кто не рискует не
+                                радуется айфону потом :)
+                                Купил айфон 4 16gb доволен,
+                                жалко что купила 16, а не больше.
+                                уже столько всего закачал!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person4.png">
+                            <h4>Олександир Ільчишин</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Купил сначала здесь iPhone 5,
+                                потом ещё заказал плёнку и чехол.
+                                Заказывал в этом магазине, ибо
+                                в других таких аксессуаров найти
+                                нигде не смог. На следующий день
+                                после заказа приехал и забрал
+                                чехол, который хотел.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person1.png">
+                            <h4>Сергій Рубан</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Полгода назад взял в компании
+                                iPhoneSale себе на День Рождения
+                                IPhone 4s. Всё работает до сих пор.
+                                И цена адекватная. В общем я остался
+                                доволен. Спасибо менеджеру
+                                Дмитрию за помощь!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div class="initi_person">
+                            <img src="img/person1.png">
+                            <h4>Сергій Рубан</h4>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                Полгода назад взял в компании
+                                iPhoneSale себе на День Рождения
+                                IPhone 4s. Всё работает до сих пор.
+                                И цена адекватная. В общем я остался
+                                доволен. Спасибо менеджеру
+                                Дмитрию за помощь!!!
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <section class="partners">
+                <div class="carousel">
+                    <div>
+                        <img class="center-block" data-lazy="img/1.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/2.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/3.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/4.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/1.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/2.JPG"/>
+                    </div>
+                    <div>
+                        <img class="center-block" data-lazy="img/3.JPG"/>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="steps">
+            <h1>Этапи роботи</h1>
+            <div class="etaps">
+                <div id="call" class="step">
+                    <p>Звонок или заявка на сайте</p>
+                    <div class="image_step">
+                        <img src="img/call.png"/>
+                    </div>
+                </div>
+                <div class="cover">
+                    <div id="transport" class="step">
+                        <div class="image_step">
+                            <img src="img/transport.png"/>
+                        </div>
+                        <p>Выезд специалиста на обьект</p>
+                    </div>
+                    <div id="interface" class="step">
+                        <div class="image_step">
+                            <img src="img/interface.png"/>
+                        </div>
+                        <p>Обсуждение деталей и составление сметы</p>
+                    </div>
+                    <div id="commercial" class="step">
+                        <div class="image_step">
+                            <img src="img/truck.png"/>
+                        </div>
+                        <p>Заключение договора</p>
+                    </div>
+                    <div id="cheklist" class="step">
+                        <div class="image_step">
+                            <img src="img/checklist.png"/>
+                        </div>
+                        <p>Выполнение работ</p>
+                    </div>
+                </div>
+                <div id="money" class="step">
+                    <p>Оплата за работу</p>
+                    <div class="image_step">
+                        <img src="img/money.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id="responcive_etaps" style="display: none">
+                <div id="left-column">
+                    <div id="call-left" class="step">
+                        <div class="image_step">
+                            <img src="img/call.png"/>
+                        </div>
+                        <p>Звонок или заявка на сайте</p>
+                    </div>
+                    <div id="interface-left" class="step">
+                        <div class="image_step">
+                            <img src="img/interface.png"/>
+                        </div>
+                        <p>Обсуждение деталей и составление сметы</p>
+                    </div>
+                    <div id="cheklist-left" class="step">
+                        <div class="image_step">
+                            <img src="img/checklist.png"/>
+                        </div>
+                        <p>Выполнение работ</p>
+                    </div>
+                </div>
+                <div id="right-column">
+                    <div id="transport-left" class="step">
+                        <div class="image_step">
+                            <img src="img/transport.png"/>
+                        </div>
+                        <p>Выезд специалиста на обьект</p>
+                    </div>
+                    <div id="commercial-left" class="step">
+                        <div class="image_step">
+                            <img src="img/truck.png"/>
+                        </div>
+                        <p>Заключение договора</p>
+                    </div>
+                    <div id="money-left" class="step">
+                        <div class="image_step">
+                            <img src="img/money.png"/>
+                        </div>
+                        <p>Оплата за работу</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map"></div>
+        <!---Footer-->
+        <footer>
+            <div class="logo'" id="footer_logo">
+                <img src="img/logo-white.png" alt="logo">
+            </div>
+            <div class="seo_text">
+                <p id="slogan">Електромонтажні роботи для будь-якого рівня споживача!</p>
+                <p id="opportunity">Тільки у нас найкращі спеціалісти та найширше коло послуг! </p>
+            </div>
+            <div class="adress">
+                <h1>Поштова адреса:</h1>
+                <p>вул.Володимирська, 60</p>
+                <p>м.Київ</p>
+                <p>01601</p>
+                <p>Україна</p>
+            </div>
+            <div class="contacts">
+                <h1>Контакти:</h1>
+                <a href="tel:0442322222">тел./факс:(044) 232 22 22</a>
+                <a href="tel:+380966301230">+38 (096) 630 12 30</a>
+                <a href="tel:+380922361223">+38 (092) 236 12 23</a>
+                <a href="mailto:uni_rect@univ.kiev.ua">e-mail: uni_rect@univ.kiev.ua</a>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </div>
+
+    <!--Modals-->
+
+    <div id="win" style="display:none;">
+        <div class="overlay" onClick="getElementById('win').style.display='none';"></div>
+        <div class="visible">
+            <div class="heading_modal">
+                <h1>Отправить заявку</h1>
+                <button id="close_modal" type="button" onClick="getElementById('win').style.display='none';">X</button>
+            </div>
+                <form id="buy_one_click"class="modal_one_click">
+                <div class="modal_inputs" id="service_modal_div">
+                    <label for="service_modal">Услуга:</label>
+                    <input id="service_modal"  value="" type="text" readonly>
+                </div>
+                <div class="modal_inputs" id="modal_inputs_name">
+                    <label for="Name_modal">Имя/Название компании:</label>
+                    <input id="Name_modal" type="text" required>
+                </div>
+                <div class="modal_inputs">
+                    <label for="Tel_modal">Телефон:</label>
+                    <input id="Tel_modal" type="tel" required>
+                </div>
+                <div class="modal_inputs">
+                    <label for="email_modal">E-mail:</label>
+                    <input id="email_modal" type="email" >
+                </div>
+
+            </form>
+            <button id="prod_modal" class="btn" form="buy_one_click" type="submit">Заказать</button>
+        </div>
+    </div>
+
+</body>
+</html>

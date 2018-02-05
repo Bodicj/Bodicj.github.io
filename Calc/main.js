@@ -51,7 +51,6 @@
      str = str.replace(/(\+\-)|(\-\+)/g, '-');
      str = str.replace(/(\-\-)/g, '+');
      str = str.replace(/^(\+|\*|\/)/g, '');
-     document.getElementById('str').value = str;
      return str
 }
  function arithmeticRefinement (operators, operands) {
