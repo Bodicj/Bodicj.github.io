@@ -338,9 +338,6 @@ var Contact = React.createClass({
         );
     }
 });
-/*I did not fully understand what you wanted to say in the fifth item of the assignment, so I add onBlur action,
- if you want to see full input value that you input, and onChange action, if you want to see every character that
- you input*/
 var Footer = React.createClass({
    render: function() {
        return(
