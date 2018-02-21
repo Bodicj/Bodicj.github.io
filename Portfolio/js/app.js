@@ -330,8 +330,8 @@ var Contact = React.createClass({
                         <a href="skype:live:bohdan.ilba?chat">Bohdan Ilba</a>
                     </div>
                     <div className='c-map'>
-                        <h4>Location:</h4>
-                        <a target='_blank'  href="http://www.google.com.ua/maps/place/Liskivska+St,+20,+Kyiv,+02000/@50.5272389,30.5942082,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4d113082ee527:0x511e6f62675ab946!8m2!3d50.5272355!4d30.5963969">Kyiv, Ukraine, Liskivska st., 20</a>
+                        <h4>Telegram:</h4>
+                        <a target='_blank'  href="http://t.me/Bodicj">@Bodicj</a>
                     </div>
                 </div>
             </div>
