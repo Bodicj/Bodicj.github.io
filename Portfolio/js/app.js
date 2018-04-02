@@ -91,7 +91,7 @@ var projectsArr = [
         img: 'img/Intersog.PNG',
         name: 'Dashboard',
         GitRepo: 'http://github.com/Bodicj/IntersogDashboard',
-        descr: 'This is my first experience with AngularJS 1.x. This is an application with simple dashboard of some advertising campaigns, it also includes a ng-routes directives with 2 roads: dashboard and campaign/:id. It shows some info about all campaigns and after click on "View Info" button it opens detail information about this campaign. Detail info about campaigns includes some Instagram posts with information about them. You can approve or reject that posts, depending of your choice post will be moved to approve or reject tab. Also you can filter that posts and there is pagination mechanism for them',
+        descr: 'This is my first experience with AngularJS 1.x. This is an application with simple dashboard of some advertising campaigns, it also includes a ng-routes directives with 2 roads: dashboard and campaign/:id. It shows some info about all campaigns and after click on "View Info" button it opens detail information about this campaign.',
         skills: "HTML, CSS, AngularJS 1.6, Webpack, Angular Material",
         demo: '',
         demoTxt: 'Demo',
