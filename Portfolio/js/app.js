@@ -9,11 +9,15 @@ var skills = [
     },
     {
         name: "JavaScript",
-        level: 6
+        level: 8
     },
     {
         name: "ReactJS",
         level: 3
+    },
+    {
+        name: "AngularJS",
+        level: 6
     },
     {
         name: "SASS",
@@ -80,6 +84,15 @@ var projectsArr = [
         GitRepo: 'http://github.com/Bodicj/react-dataroot-course',
         descr: 'This is my first experience with ReactJS and react-router. It based on a Criasoft React starter kit. It uncludes some routes for pages, and some react components.',
         skills: "HTML, CSS, ReactJS, Webpack, react-router",
+        demo: '',
+        demoTxt: 'Demo',
+    },
+    {
+        img: 'img/Intersog.PNG',
+        name: 'Dashboard',
+        GitRepo: 'http://github.com/Bodicj/IntersogDashboard',
+        descr: 'This is my first experience with AngularJS 1.x. This is an application with simple dashboard of some advertising campaigns, it also includes a ng-routes directives with 2 roads: dashboard and campaign/:id. It shows some info about all campaigns and after click on "View Info" button it opens detail information about this campaign. Detail info about campaigns includes some Instagram posts with information about them. You can approve or reject that posts, depending of your choice post will be moved to approve or reject tab. Also you can filter that posts and there is pagination mechanism for them',
+        skills: "HTML, CSS, AngularJS 1.6, Webpack, Angular Material",
         demo: '',
         demoTxt: 'Demo',
     }
