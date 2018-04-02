@@ -88,10 +88,10 @@ var projectsArr = [
         demoTxt: 'Demo',
     },
     {
-        img: 'img/Intersog.png',
+        img: "img/Intersog.png",
         name: 'Dashboard',
         GitRepo: 'http://github.com/Bodicj/IntersogDashboard',
-        descr: 'This is my first experience with AngularJS 1.x. This is an application with simple dashboard of some advertising campaigns, it also includes a ng-routes directives with 2 roads: dashboard and campaign/:id. It shows some info about all campaigns and after click on "View Info" button it opens detail information about this campaign.',
+        descr: 'This is my first experience with AngularJS 1.x. This is an application with simple dashboard of some advertising campaigns, it also includes a ng-routes directives with 2 roads: dashboard and campaign/:id.',
         skills: "HTML, CSS, AngularJS 1.6, Webpack, Angular Material",
         demo: '',
         demoTxt: 'Demo',
