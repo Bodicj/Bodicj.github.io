@@ -263,6 +263,12 @@ var WorkExp = React.createClass({
                         and a rating module</li>
                     </ul>
                 </div>
+                <div className='exWork'>
+                    <h3>RelateDate</h3> <p className='period' >(march 2018 - april 2018)</p>
+                    <p className='position'>Trainee frontend devloper</p>
+                    <p className='tasks'>Main tasks:</p>
+                    <p>Creation and integration new Angular 1.6 components, and refactoring old components</p>
+                </div>
             </div>
         )
     }
